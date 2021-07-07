@@ -1,0 +1,1406 @@
+Package: liblucihttp-lua
+Version: 2021-06-11-3dc89af4-1
+Depends: libc, liblucihttp0, liblua5.1.5
+License: ISC
+Section: libs
+Architecture: x86_64
+Installed-Size: 3582
+Filename: liblucihttp-lua_2021-06-11-3dc89af4-1_x86_64.ipk
+Size: 4357
+SHA256sum: d0c0f09434b9afc26411d52ec6aed71b5bfec85db0dabcff4bbf6760d27fbec5
+Description:  Lua binding for the LuCI HTTP utility library
+
+Package: liblucihttp0
+Version: 2021-06-11-3dc89af4-1
+Depends: libc
+Provides: liblucihttp
+License: ISC
+Section: libs
+ABIVersion: 0
+Architecture: x86_64
+Installed-Size: 7608
+Filename: liblucihttp0_2021-06-11-3dc89af4-1_x86_64.ipk
+Size: 8418
+SHA256sum: ce15780fc18bceaddfdadfdeff35d9165fd4dfabcec2a982441a7f3c9deed11f
+Description:  LuCI HTTP utility library
+
+Package: luci-app-firewall
+Version: git-21.187.23424-ddedcfd
+Depends: libc, firewall
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 14142
+Filename: luci-app-firewall_git-21.187.23424-ddedcfd_all.ipk
+Size: 14978
+SHA256sum: d53789fe53dfd3202c918420543ed427e785af198e26ca1597175c313dc8e928
+Description:  Firewall and Portforwarding application
+
+Package: luci-app-opkg
+Version: git-21.187.23424-ddedcfd
+Depends: libc, opkg
+Section: luci
+Architecture: all
+Installed-Size: 8403
+Filename: luci-app-opkg_git-21.187.23424-ddedcfd_all.ipk
+Size: 9265
+SHA256sum: d36b71dd12a404f6e04c5eede118390fd743ffeb2e38992450a6aba0aaad22d2
+Description:  OPKG package management application
+
+Package: luci-base
+Version: git-21.187.23424-ddedcfd
+Depends: libc, lua, luci-lib-nixio, luci-lib-ip, rpcd, libubus-lua, luci-lib-jsonc, liblucihttp-lua, luci-lib-base, rpcd-mod-file, rpcd-mod-luci, cgi-io
+License: MIT
+Section: luci
+Architecture: x86_64
+Installed-Size: 128716
+Filename: luci-base_git-21.187.23424-ddedcfd_x86_64.ipk
+Size: 129750
+SHA256sum: 2cc134aa5ef856d4addced4b282251f1aaceac04aea46c251e8732c5415b2319
+Description:  LuCI core libraries
+
+Package: luci-compat
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-base
+Section: luci
+Architecture: all
+Installed-Size: 45356
+Filename: luci-compat_git-21.187.23424-ddedcfd_all.ipk
+Size: 46121
+SHA256sum: a9bbd6b0a79e030e61e1546ef72ab41df51c047918d28aa7c437b0fecbca8005
+Description:  LuCI compatibility libraries
+
+Package: luci-i18n-base-ar
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-base
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 37747
+Filename: luci-i18n-base-ar_git-21.187.23424-ddedcfd_all.ipk
+Size: 38657
+SHA256sum: 53707688b0acf15f78712b81f263679af6121a656024b87fba949f7f04c2551d
+Description:  Translation for luci-base - العربية (Arabic)
+
+Package: luci-i18n-base-bg
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-base
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 606
+Filename: luci-i18n-base-bg_git-21.187.23424-ddedcfd_all.ipk
+Size: 1438
+SHA256sum: 6ace56087009425bed72b5c868da7fb20d8238466cb5e71d2807d4dcd8e0d797
+Description:  Translation for luci-base - български (Bulgarian)
+
+Package: luci-i18n-base-bn
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-base
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 540
+Filename: luci-i18n-base-bn_git-21.187.23424-ddedcfd_all.ipk
+Size: 1364
+SHA256sum: ce29681a56c168f2c1f7f6fc39ba6660661631318700094e321d87d374dab994
+Description:  Translation for luci-base - বাংলা (Bengali)
+
+Package: luci-i18n-base-ca
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-base
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 12508
+Filename: luci-i18n-base-ca_git-21.187.23424-ddedcfd_all.ipk
+Size: 13303
+SHA256sum: c62f005c4531f5dbed6254dcec43d4287aad9216027190ab9823ea66711f0603
+Description:  Translation for luci-base - Català (Catalan)
+
+Package: luci-i18n-base-cs
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-base
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 31652
+Filename: luci-i18n-base-cs_git-21.187.23424-ddedcfd_all.ipk
+Size: 32482
+SHA256sum: 5800b88d7a8f66a7e1e362a32fdc9cbf9ab39400c4524d289c14ad9d88cc5043
+Description:  Translation for luci-base - Čeština (Czech)
+
+Package: luci-i18n-base-de
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-base
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 41084
+Filename: luci-i18n-base-de_git-21.187.23424-ddedcfd_all.ipk
+Size: 41856
+SHA256sum: 71ace56aa3138b186eea8016fbff9bda1f4b76fde480572ce9215d0952a99e9e
+Description:  Translation for luci-base - Deutsch (German)
+
+Package: luci-i18n-base-el
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-base
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 12780
+Filename: luci-i18n-base-el_git-21.187.23424-ddedcfd_all.ipk
+Size: 13575
+SHA256sum: ce3437d97b40feda66f6f62b3cf65a4943129ac85928e32438d71edc01886f89
+Description:  Translation for luci-base - Ελληνικά (Greek)
+
+Package: luci-i18n-base-en
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-base
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 791
+Filename: luci-i18n-base-en_git-21.187.23424-ddedcfd_all.ipk
+Size: 1593
+SHA256sum: 326669bf986e57fc266d432c9c16b7b5e26f3d619c2a8f767b37731b48e1fcbc
+Description:  Translation for luci-base - English
+
+Package: luci-i18n-base-es
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-base
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 40223
+Filename: luci-i18n-base-es_git-21.187.23424-ddedcfd_all.ipk
+Size: 41067
+SHA256sum: cada60807323cde7afde344b271511b3f174e545d5533a22c91992823d71295d
+Description:  Translation for luci-base - Español (Spanish)
+
+Package: luci-i18n-base-fi
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-base
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 33915
+Filename: luci-i18n-base-fi_git-21.187.23424-ddedcfd_all.ipk
+Size: 34789
+SHA256sum: 5f7c15ada630f757ca0f740e275ab790e2debd583324a4782d6dcb0349d7a39e
+Description:  Translation for luci-base - Suomi (Finnish)
+
+Package: luci-i18n-base-fr
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-base
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 34629
+Filename: luci-i18n-base-fr_git-21.187.23424-ddedcfd_all.ipk
+Size: 35530
+SHA256sum: 808b43e83813b26502bb939ab18f0695a798899d0a7ee9ca0ab0ac40748c3582
+Description:  Translation for luci-base - Français (French)
+
+Package: luci-i18n-base-he
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-base
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 4838
+Filename: luci-i18n-base-he_git-21.187.23424-ddedcfd_all.ipk
+Size: 5648
+SHA256sum: 9ad35bec784be2764ffda4063fc698f06cc29bb4f5f324a8e4e457b725623e73
+Description:  Translation for luci-base - עִבְרִית (Hebrew)
+
+Package: luci-i18n-base-hi
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-base
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 2154
+Filename: luci-i18n-base-hi_git-21.187.23424-ddedcfd_all.ipk
+Size: 2959
+SHA256sum: 89bd1bd42d32874f6bd3ac5d12c5d687bd377d90a4e61640ce03bb4d6e08eaa1
+Description:  Translation for luci-base - हिंदी (Hindi)
+
+Package: luci-i18n-base-hu
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-base
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 29925
+Filename: luci-i18n-base-hu_git-21.187.23424-ddedcfd_all.ipk
+Size: 30761
+SHA256sum: b0239e4755b6edb431659d58d5aeeb75b681596df6d1ad110749529dc1b2601d
+Description:  Translation for luci-base - Magyar (Hungarian)
+
+Package: luci-i18n-base-it
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-base
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 14530
+Filename: luci-i18n-base-it_git-21.187.23424-ddedcfd_all.ipk
+Size: 15331
+SHA256sum: d3bc3bb44dda362a46e9ca57fd5d600cb28afe85f36bfb32ffeb552a313ecb6f
+Description:  Translation for luci-base - Italiano (Italian)
+
+Package: luci-i18n-base-ja
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-base
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 37722
+Filename: luci-i18n-base-ja_git-21.187.23424-ddedcfd_all.ipk
+Size: 38633
+SHA256sum: df52d5dd21781ed892bfe831c62ed0c38068d5573023cdd91a77eb0f36869508
+Description:  Translation for luci-base - 日本語 (Japanese)
+
+Package: luci-i18n-base-ko
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-base
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 14457
+Filename: luci-i18n-base-ko_git-21.187.23424-ddedcfd_all.ipk
+Size: 15289
+SHA256sum: 73533061b1f7bf0ae9a47619f4e6f24e0c5fa3a17fd2d624c76426bac4476ea1
+Description:  Translation for luci-base - 한국어 (Korean)
+
+Package: luci-i18n-base-mr
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-base
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 1459
+Filename: luci-i18n-base-mr_git-21.187.23424-ddedcfd_all.ipk
+Size: 2288
+SHA256sum: 63b511cc9a8c06766e51c58a67ca9c5699f611295cf1c444382cea1471fba555
+Description:  Translation for luci-base - Marāṭhī (Marathi)
+
+Package: luci-i18n-base-ms
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-base
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 4978
+Filename: luci-i18n-base-ms_git-21.187.23424-ddedcfd_all.ipk
+Size: 5761
+SHA256sum: 23c352a7938cd1f6568572c24b50fe4070fa3b667aa2d45e77ac9be57ceda940
+Description:  Translation for luci-base - Bahasa Melayu (Malay)
+
+Package: luci-i18n-base-nl
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-base
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 4087
+Filename: luci-i18n-base-nl_git-21.187.23424-ddedcfd_all.ipk
+Size: 4868
+SHA256sum: c304eaaada74a5ec6b5b6895ef7da6c24352b8ea95b41891d8b53e68be38c029
+Description:  Translation for luci-base - Nederlands (Dutch)
+
+Package: luci-i18n-base-no
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-base
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 13494
+Filename: luci-i18n-base-no_git-21.187.23424-ddedcfd_all.ipk
+Size: 14284
+SHA256sum: 5f9198e238323470c7d7897a7fbf7ef0c8720af9867bb750c22a9f152fc51ecd
+Description:  Translation for luci-base - Norsk (Norwegian)
+
+Package: luci-i18n-base-pl
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-base
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 41137
+Filename: luci-i18n-base-pl_git-21.187.23424-ddedcfd_all.ipk
+Size: 41967
+SHA256sum: 704a43d16bffc84fbdad7a6c8ee09d39744b4285636ce804fdc6a47a58244fae
+Description:  Translation for luci-base - Polski (Polish)
+
+Package: luci-i18n-base-pt-br
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-base
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 42149
+Filename: luci-i18n-base-pt-br_git-21.187.23424-ddedcfd_all.ipk
+Size: 42938
+SHA256sum: be1be1c14744028362aa1f7999b56f452ac26c91759c95d67c3bca6504eaa7ef
+Description:  Translation for luci-base - Português do Brasil (Brazilian Portuguese)
+
+Package: luci-i18n-base-pt
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-base
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 39314
+Filename: luci-i18n-base-pt_git-21.187.23424-ddedcfd_all.ipk
+Size: 40182
+SHA256sum: 90b3eba9772c611b536240eea72ea9a06d90c035194fd26d2dcfbfa21a4571dc
+Description:  Translation for luci-base - Português (Portuguese)
+
+Package: luci-i18n-base-ro
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-base
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 9633
+Filename: luci-i18n-base-ro_git-21.187.23424-ddedcfd_all.ipk
+Size: 10447
+SHA256sum: f11b87bd11ad342870014edb44ca28e19df635f61555e8a513ffcf621bfe2049
+Description:  Translation for luci-base - Română (Romanian)
+
+Package: luci-i18n-base-ru
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-base
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 47862
+Filename: luci-i18n-base-ru_git-21.187.23424-ddedcfd_all.ipk
+Size: 48465
+SHA256sum: 2a9c3a0d677c14c60ec804827296ac5cd7ceb093f0fc3b22dde9c7b215bf33c8
+Description:  Translation for luci-base - Русский (Russian)
+
+Package: luci-i18n-base-sk
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-base
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 15414
+Filename: luci-i18n-base-sk_git-21.187.23424-ddedcfd_all.ipk
+Size: 16231
+SHA256sum: 29d3ecd07170054a8ce04a512c1a8789d0797c8ff26acd7c4cee216ae2f74b0f
+Description:  Translation for luci-base - Slovenčina (Slovak)
+
+Package: luci-i18n-base-sv
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-base
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 12604
+Filename: luci-i18n-base-sv_git-21.187.23424-ddedcfd_all.ipk
+Size: 13380
+SHA256sum: 5a44e7733b13ada6ba6d6915a4bb95be01a88474511302528164a4f012fd1500
+Description:  Translation for luci-base - Svenska (Swedish)
+
+Package: luci-i18n-base-tr
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-base
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 39992
+Filename: luci-i18n-base-tr_git-21.187.23424-ddedcfd_all.ipk
+Size: 40823
+SHA256sum: e671424f63cbfe0eb903a6bba9553a1906d636c3bb03834ac099d0ddc5d34a06
+Description:  Translation for luci-base - Türkçe (Turkish)
+
+Package: luci-i18n-base-uk
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-base
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 41426
+Filename: luci-i18n-base-uk_git-21.187.23424-ddedcfd_all.ipk
+Size: 42207
+SHA256sum: cdc59734127d3ab271d9f0946dc18cd48cd227b58b335ada4f8551582dc0658a
+Description:  Translation for luci-base - Українська (Ukrainian)
+
+Package: luci-i18n-base-vi
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-base
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 25602
+Filename: luci-i18n-base-vi_git-21.187.23424-ddedcfd_all.ipk
+Size: 26387
+SHA256sum: 97fc87fe1aa662632dfcbafcbfa077a59a2eb9796ff7de049f451f3294f04483
+Description:  Translation for luci-base - Tiếng Việt (Vietnamese)
+
+Package: luci-i18n-base-zh-cn
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-base
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 37727
+Filename: luci-i18n-base-zh-cn_git-21.187.23424-ddedcfd_all.ipk
+Size: 38655
+SHA256sum: bbd1ee8cd73eef419ebc873ec866701c33d4ef37d9bdbcaabe3d262c94cf4ac8
+Description:  Translation for luci-base - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-base-zh-tw
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-base
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 35341
+Filename: luci-i18n-base-zh-tw_git-21.187.23424-ddedcfd_all.ipk
+Size: 36248
+SHA256sum: 99f5c3203fcad75f6e2721e1bea34b5a3e815bf744711851a8e7f0e597fb815c
+Description:  Translation for luci-base - 繁體中文 (Chinese Traditional)
+
+Package: luci-i18n-firewall-ar
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-app-firewall
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 6360
+Filename: luci-i18n-firewall-ar_git-21.187.23424-ddedcfd_all.ipk
+Size: 7204
+SHA256sum: 751b5e7e1ae51f3554c3019c1c039bc845bd27ebbd681aa8720cdea664ce33fa
+Description:  Translation for luci-app-firewall - العربية (Arabic)
+
+Package: luci-i18n-firewall-bg
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-app-firewall
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 389
+Filename: luci-i18n-firewall-bg_git-21.187.23424-ddedcfd_all.ipk
+Size: 1228
+SHA256sum: 06c9cce556a1ff7199d6e71f6720e71e9349bf421794394b8edb3b7d604ef284
+Description:  Translation for luci-app-firewall - български (Bulgarian)
+
+Package: luci-i18n-firewall-bn
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-app-firewall
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 431
+Filename: luci-i18n-firewall-bn_git-21.187.23424-ddedcfd_all.ipk
+Size: 1257
+SHA256sum: 393a4f7f4fdd41d235a6498b0f47b938853f08f208c2e506f85c7b7231fc150d
+Description:  Translation for luci-app-firewall - বাংলা (Bengali)
+
+Package: luci-i18n-firewall-ca
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-app-firewall
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 2558
+Filename: luci-i18n-firewall-ca_git-21.187.23424-ddedcfd_all.ipk
+Size: 3355
+SHA256sum: 43a30a1c9e670b3c11f6b0d620d9351e0a6975018b241c4efc5858a45c3f7b4b
+Description:  Translation for luci-app-firewall - Català (Catalan)
+
+Package: luci-i18n-firewall-cs
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-app-firewall
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 4242
+Filename: luci-i18n-firewall-cs_git-21.187.23424-ddedcfd_all.ipk
+Size: 5035
+SHA256sum: 1d565f8b9979334b3a3cc45fbc2a05da699af2a28948c2856c0092b24292504e
+Description:  Translation for luci-app-firewall - Čeština (Czech)
+
+Package: luci-i18n-firewall-de
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-app-firewall
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 6924
+Filename: luci-i18n-firewall-de_git-21.187.23424-ddedcfd_all.ipk
+Size: 7761
+SHA256sum: 5211969490044a9bf94e2244fa78fbfe884566a53c35ad4f38c79dfe419876e7
+Description:  Translation for luci-app-firewall - Deutsch (German)
+
+Package: luci-i18n-firewall-el
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-app-firewall
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 1385
+Filename: luci-i18n-firewall-el_git-21.187.23424-ddedcfd_all.ipk
+Size: 2223
+SHA256sum: 34eae103b519140434a39037475e71201832408f8cdf249e889a6a71b52e7d33
+Description:  Translation for luci-app-firewall - Ελληνικά (Greek)
+
+Package: luci-i18n-firewall-en
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-app-firewall
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 353
+Filename: luci-i18n-firewall-en_git-21.187.23424-ddedcfd_all.ipk
+Size: 1158
+SHA256sum: f2a665302210e5ff8419940ae030f4aeb65e47a264b76153a1248326df0e7939
+Description:  Translation for luci-app-firewall - English
+
+Package: luci-i18n-firewall-es
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-app-firewall
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 6746
+Filename: luci-i18n-firewall-es_git-21.187.23424-ddedcfd_all.ipk
+Size: 7605
+SHA256sum: 14d54e1a6884fa7bfe25b18ba756058fd69e9ea94817e00bb4134c5358b77fe2
+Description:  Translation for luci-app-firewall - Español (Spanish)
+
+Package: luci-i18n-firewall-fa
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-app-firewall
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 346
+Filename: luci-i18n-firewall-fa_git-21.187.23424-ddedcfd_all.ipk
+Size: 1143
+SHA256sum: 3da0873b9aeb0a3aa91d069802733e34741ec9dc6bd58983352e1fa34eabd2da
+Description:  Translation for luci-app-firewall - 
+
+Package: luci-i18n-firewall-fi
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-app-firewall
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 6875
+Filename: luci-i18n-firewall-fi_git-21.187.23424-ddedcfd_all.ipk
+Size: 7710
+SHA256sum: 42987ec9315dca6b560ce0ce437f5ebf88a7822f6b5e92651ec86ec0d035a7a3
+Description:  Translation for luci-app-firewall - Suomi (Finnish)
+
+Package: luci-i18n-firewall-fr
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-app-firewall
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 6168
+Filename: luci-i18n-firewall-fr_git-21.187.23424-ddedcfd_all.ipk
+Size: 7012
+SHA256sum: b3dc1339d06a693b6ef4eca6d8e7e44014b9c04601e5b150dad068307059349b
+Description:  Translation for luci-app-firewall - Français (French)
+
+Package: luci-i18n-firewall-he
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-app-firewall
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 423
+Filename: luci-i18n-firewall-he_git-21.187.23424-ddedcfd_all.ipk
+Size: 1254
+SHA256sum: 80e1b1e0ccfc390613d5381d984913b19d44d92b6242cd957af60d02953dab76
+Description:  Translation for luci-app-firewall - עִבְרִית (Hebrew)
+
+Package: luci-i18n-firewall-hi
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-app-firewall
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 382
+Filename: luci-i18n-firewall-hi_git-21.187.23424-ddedcfd_all.ipk
+Size: 1218
+SHA256sum: 4c0868cc6a7fcbed82468a5437313aa9edb0fdbb7a4bc351d9b676de5064fe11
+Description:  Translation for luci-app-firewall - हिंदी (Hindi)
+
+Package: luci-i18n-firewall-hu
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-app-firewall
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 5673
+Filename: luci-i18n-firewall-hu_git-21.187.23424-ddedcfd_all.ipk
+Size: 6489
+SHA256sum: 3f36f5c6192060878e0abc969afe717b7d307888bdcd22eb91a4947fc529df40
+Description:  Translation for luci-app-firewall - Magyar (Hungarian)
+
+Package: luci-i18n-firewall-id
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-app-firewall
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 1332
+Filename: luci-i18n-firewall-id_git-21.187.23424-ddedcfd_all.ipk
+Size: 2145
+SHA256sum: 1e787cb7675316923e8d85a4f3d92eca9ba4b1ad7a018ed17d39215adebfdcf9
+Description:  Translation for luci-app-firewall - 
+
+Package: luci-i18n-firewall-it
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-app-firewall
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 2758
+Filename: luci-i18n-firewall-it_git-21.187.23424-ddedcfd_all.ipk
+Size: 3545
+SHA256sum: 5011c68d516e7477ab4244b9d23154163b537af877d5c468926a7fbc8d2ffc2d
+Description:  Translation for luci-app-firewall - Italiano (Italian)
+
+Package: luci-i18n-firewall-ja
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-app-firewall
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 7152
+Filename: luci-i18n-firewall-ja_git-21.187.23424-ddedcfd_all.ipk
+Size: 8018
+SHA256sum: 424cdcd03093216b5e59764a44b27eaee68991a394364cb93684bd804dfbb82b
+Description:  Translation for luci-app-firewall - 日本語 (Japanese)
+
+Package: luci-i18n-firewall-ko
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-app-firewall
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 2267
+Filename: luci-i18n-firewall-ko_git-21.187.23424-ddedcfd_all.ipk
+Size: 3068
+SHA256sum: 26eecdb9ed0302b4d66edb159e1c41e02e1f38efa4e2056bdef7f92214d19e0e
+Description:  Translation for luci-app-firewall - 한국어 (Korean)
+
+Package: luci-i18n-firewall-mr
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-app-firewall
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 672
+Filename: luci-i18n-firewall-mr_git-21.187.23424-ddedcfd_all.ipk
+Size: 1500
+SHA256sum: 37f9dec8ba8009731897378546c57098b834373444bd2129578c986f25a30d7f
+Description:  Translation for luci-app-firewall - Marāṭhī (Marathi)
+
+Package: luci-i18n-firewall-ms
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-app-firewall
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 411
+Filename: luci-i18n-firewall-ms_git-21.187.23424-ddedcfd_all.ipk
+Size: 1229
+SHA256sum: 7d54c1b87c121db3e41cf043e9e313c8bc29c2e4003f3f2b561d952248027561
+Description:  Translation for luci-app-firewall - Bahasa Melayu (Malay)
+
+Package: luci-i18n-firewall-no
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-app-firewall
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 2440
+Filename: luci-i18n-firewall-no_git-21.187.23424-ddedcfd_all.ipk
+Size: 3229
+SHA256sum: 9772caa072d13802164168b043f071b2ba8198d59ab775d7ade29e9c7b797c3b
+Description:  Translation for luci-app-firewall - Norsk (Norwegian)
+
+Package: luci-i18n-firewall-pl
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-app-firewall
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 7015
+Filename: luci-i18n-firewall-pl_git-21.187.23424-ddedcfd_all.ipk
+Size: 7851
+SHA256sum: b1c37b32b1d6dbe817202fe66a26870564510436f6a5781cf3081ef739a17220
+Description:  Translation for luci-app-firewall - Polski (Polish)
+
+Package: luci-i18n-firewall-pt-br
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-app-firewall
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 6918
+Filename: luci-i18n-firewall-pt-br_git-21.187.23424-ddedcfd_all.ipk
+Size: 7782
+SHA256sum: 41775a5836db1371431a591b970536f6aa60d054f92266ed67cd3701a3a4fca1
+Description:  Translation for luci-app-firewall - Português do Brasil (Brazilian Portuguese)
+
+Package: luci-i18n-firewall-pt
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-app-firewall
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 6903
+Filename: luci-i18n-firewall-pt_git-21.187.23424-ddedcfd_all.ipk
+Size: 7750
+SHA256sum: 3f14553262da057401c3f3df717ceb7473ccadcd9de20294c93c9cba17174586
+Description:  Translation for luci-app-firewall - Português (Portuguese)
+
+Package: luci-i18n-firewall-ro
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-app-firewall
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 1579
+Filename: luci-i18n-firewall-ro_git-21.187.23424-ddedcfd_all.ipk
+Size: 2418
+SHA256sum: 91bb1fa91245ae7cb8543f5c9325ed90fac245bdbfb68e1f71e31efe6f0562bf
+Description:  Translation for luci-app-firewall - Română (Romanian)
+
+Package: luci-i18n-firewall-ru
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-app-firewall
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 7862
+Filename: luci-i18n-firewall-ru_git-21.187.23424-ddedcfd_all.ipk
+Size: 8702
+SHA256sum: f8bbacdf9cd65d2d6c509544dc14349a8a7550fca7da20dc8db07d106e81b365
+Description:  Translation for luci-app-firewall - Русский (Russian)
+
+Package: luci-i18n-firewall-si
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-app-firewall
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 667
+Filename: luci-i18n-firewall-si_git-21.187.23424-ddedcfd_all.ipk
+Size: 1470
+SHA256sum: 4bc4e8ed63937fe02ffae9a9a2703434e4d98f45a1ed0a482709ba2b74c1a7fd
+Description:  Translation for luci-app-firewall - 
+
+Package: luci-i18n-firewall-sk
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-app-firewall
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 3711
+Filename: luci-i18n-firewall-sk_git-21.187.23424-ddedcfd_all.ipk
+Size: 4521
+SHA256sum: 52b820ffd25ddd7314fa8b92519d83c85e8a73a2742e5c443ae80a5494c6a841
+Description:  Translation for luci-app-firewall - Slovenčina (Slovak)
+
+Package: luci-i18n-firewall-sv
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-app-firewall
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 3180
+Filename: luci-i18n-firewall-sv_git-21.187.23424-ddedcfd_all.ipk
+Size: 3964
+SHA256sum: f625999634ff4a6b613a8a6c404d57bca650264bac61a96ee2c7cb56440d64fd
+Description:  Translation for luci-app-firewall - Svenska (Swedish)
+
+Package: luci-i18n-firewall-tr
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-app-firewall
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 6912
+Filename: luci-i18n-firewall-tr_git-21.187.23424-ddedcfd_all.ipk
+Size: 7761
+SHA256sum: f68a551f1f1c75a5b9460b2b507ee712392dc0cb80af3ebc94907b9cb1de6326
+Description:  Translation for luci-app-firewall - Türkçe (Turkish)
+
+Package: luci-i18n-firewall-uk
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-app-firewall
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 7690
+Filename: luci-i18n-firewall-uk_git-21.187.23424-ddedcfd_all.ipk
+Size: 8555
+SHA256sum: 8f472e00afc9658fa19d835cfb7b53c6a8dad65a59ac6d5b908e928cac3357d7
+Description:  Translation for luci-app-firewall - Українська (Ukrainian)
+
+Package: luci-i18n-firewall-vi
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-app-firewall
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 886
+Filename: luci-i18n-firewall-vi_git-21.187.23424-ddedcfd_all.ipk
+Size: 1717
+SHA256sum: 3a91e47ae39ef43633111bc28a2041c4d6bd8d670a69e0ca95b4cd1fbb9efc5b
+Description:  Translation for luci-app-firewall - Tiếng Việt (Vietnamese)
+
+Package: luci-i18n-firewall-zh-cn
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-app-firewall
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 6429
+Filename: luci-i18n-firewall-zh-cn_git-21.187.23424-ddedcfd_all.ipk
+Size: 7309
+SHA256sum: a9667800ad38c2d04a27d943cb0d518e7636acf73e629a830e815df0030e113b
+Description:  Translation for luci-app-firewall - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-firewall-zh-tw
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-app-firewall
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 6793
+Filename: luci-i18n-firewall-zh-tw_git-21.187.23424-ddedcfd_all.ipk
+Size: 7667
+SHA256sum: 6af15d53a45a234e76294d1b68ccbfa4b24c3cbd30232bc8dc93b20103791696
+Description:  Translation for luci-app-firewall - 繁體中文 (Chinese Traditional)
+
+Package: luci-i18n-opkg-ar
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-app-opkg
+Section: luci
+Architecture: all
+Installed-Size: 2328
+Filename: luci-i18n-opkg-ar_git-21.187.23424-ddedcfd_all.ipk
+Size: 3129
+SHA256sum: a991c99a4e3855c4658ca0c29e37adeea96d6e40c44d256b691e842867a6a325
+Description:  Translation for luci-app-opkg - العربية (Arabic)
+
+Package: luci-i18n-opkg-bg
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-app-opkg
+Section: luci
+Architecture: all
+Installed-Size: 559
+Filename: luci-i18n-opkg-bg_git-21.187.23424-ddedcfd_all.ipk
+Size: 1381
+SHA256sum: a806378c5230af3e61efc1d4a74a749d14fd655f9dad342d7673a98931a1e77a
+Description:  Translation for luci-app-opkg - български (Bulgarian)
+
+Package: luci-i18n-opkg-bn
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-app-opkg
+Section: luci
+Architecture: all
+Installed-Size: 411
+Filename: luci-i18n-opkg-bn_git-21.187.23424-ddedcfd_all.ipk
+Size: 1230
+SHA256sum: 60e3f1458ad9436d5d3eb49a1c2020e6a7efb54f94bcef42b76ccde913f0f3b7
+Description:  Translation for luci-app-opkg - বাংলা (Bengali)
+
+Package: luci-i18n-opkg-ca
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-app-opkg
+Section: luci
+Architecture: all
+Installed-Size: 1036
+Filename: luci-i18n-opkg-ca_git-21.187.23424-ddedcfd_all.ipk
+Size: 1840
+SHA256sum: b41c2953f28c9aa83e1676b65d4cf137f8f94c3d0f52ae422a4aa98d21139728
+Description:  Translation for luci-app-opkg - Català (Catalan)
+
+Package: luci-i18n-opkg-cs
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-app-opkg
+Section: luci
+Architecture: all
+Installed-Size: 2104
+Filename: luci-i18n-opkg-cs_git-21.187.23424-ddedcfd_all.ipk
+Size: 2916
+SHA256sum: 9736463b953133df82295628e2792fb6587a5c10ff27da439873171894e14b37
+Description:  Translation for luci-app-opkg - Čeština (Czech)
+
+Package: luci-i18n-opkg-de
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-app-opkg
+Section: luci
+Architecture: all
+Installed-Size: 2169
+Filename: luci-i18n-opkg-de_git-21.187.23424-ddedcfd_all.ipk
+Size: 2940
+SHA256sum: e07e54cf255ad8cf0b7bb16d41acb3ccb3a010c58c6073ef7a511be13320f940
+Description:  Translation for luci-app-opkg - Deutsch (German)
+
+Package: luci-i18n-opkg-el
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-app-opkg
+Section: luci
+Architecture: all
+Installed-Size: 1072
+Filename: luci-i18n-opkg-el_git-21.187.23424-ddedcfd_all.ipk
+Size: 1893
+SHA256sum: 52c48d4e57a8945703e4360d3434c6f1298581637cd9a2b6f336beb074466241
+Description:  Translation for luci-app-opkg - Ελληνικά (Greek)
+
+Package: luci-i18n-opkg-en
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-app-opkg
+Section: luci
+Architecture: all
+Installed-Size: 351
+Filename: luci-i18n-opkg-en_git-21.187.23424-ddedcfd_all.ipk
+Size: 1138
+SHA256sum: d4646ddfd4a1056ede764b424bba78ea7850fbf79b77fc3617eec8899a33331d
+Description:  Translation for luci-app-opkg - English
+
+Package: luci-i18n-opkg-es
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-app-opkg
+Section: luci
+Architecture: all
+Installed-Size: 2128
+Filename: luci-i18n-opkg-es_git-21.187.23424-ddedcfd_all.ipk
+Size: 2942
+SHA256sum: 6d4c3413d3c2cca3532106efd92e6c22c15522b280a060b01f167f89b3e5a800
+Description:  Translation for luci-app-opkg - Español (Spanish)
+
+Package: luci-i18n-opkg-fi
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-app-opkg
+Section: luci
+Architecture: all
+Installed-Size: 2111
+Filename: luci-i18n-opkg-fi_git-21.187.23424-ddedcfd_all.ipk
+Size: 2915
+SHA256sum: 2958a382080a2155ef06bb61ab6fdff6316126c7d32111826c9f6a08a66033fc
+Description:  Translation for luci-app-opkg - Suomi (Finnish)
+
+Package: luci-i18n-opkg-fr
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-app-opkg
+Section: luci
+Architecture: all
+Installed-Size: 2117
+Filename: luci-i18n-opkg-fr_git-21.187.23424-ddedcfd_all.ipk
+Size: 2926
+SHA256sum: f3295a546daf0ea67d9eda2dcb4addaab9260a36d85e79c94fdcc84ccd00d858
+Description:  Translation for luci-app-opkg - Français (French)
+
+Package: luci-i18n-opkg-he
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-app-opkg
+Section: luci
+Architecture: all
+Installed-Size: 1172
+Filename: luci-i18n-opkg-he_git-21.187.23424-ddedcfd_all.ipk
+Size: 2003
+SHA256sum: f8622e2977b3187d4a69948e0eeebc29d7d674bc87c1df6458b3fe0adbb28429
+Description:  Translation for luci-app-opkg - עִבְרִית (Hebrew)
+
+Package: luci-i18n-opkg-hi
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-app-opkg
+Section: luci
+Architecture: all
+Installed-Size: 412
+Filename: luci-i18n-opkg-hi_git-21.187.23424-ddedcfd_all.ipk
+Size: 1226
+SHA256sum: 6e6c9c2be79b2f527ded0a832f9d1b72b97ee401fff8ad4bcbcdeba8828aa7c8
+Description:  Translation for luci-app-opkg - हिंदी (Hindi)
+
+Package: luci-i18n-opkg-hu
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-app-opkg
+Section: luci
+Architecture: all
+Installed-Size: 2276
+Filename: luci-i18n-opkg-hu_git-21.187.23424-ddedcfd_all.ipk
+Size: 3051
+SHA256sum: 481c3a2daf13b52d4875a385676692f420dc3bf4b37d91084308aa08fe0aa096
+Description:  Translation for luci-app-opkg - Magyar (Hungarian)
+
+Package: luci-i18n-opkg-it
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-app-opkg
+Section: luci
+Architecture: all
+Installed-Size: 1929
+Filename: luci-i18n-opkg-it_git-21.187.23424-ddedcfd_all.ipk
+Size: 2735
+SHA256sum: a7c70f97a8de691fc83f53f23918c637c892230c444a745cd52e8c9d814e649f
+Description:  Translation for luci-app-opkg - Italiano (Italian)
+
+Package: luci-i18n-opkg-ja
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-app-opkg
+Section: luci
+Architecture: all
+Installed-Size: 2350
+Filename: luci-i18n-opkg-ja_git-21.187.23424-ddedcfd_all.ipk
+Size: 3145
+SHA256sum: 6ec786df0549403f07a59de3be1398a7bbc5960ea44c829734f4c89076af6d24
+Description:  Translation for luci-app-opkg - 日本語 (Japanese)
+
+Package: luci-i18n-opkg-ko
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-app-opkg
+Section: luci
+Architecture: all
+Installed-Size: 1057
+Filename: luci-i18n-opkg-ko_git-21.187.23424-ddedcfd_all.ipk
+Size: 1868
+SHA256sum: c0420743ec2a279d19482c5aad43bffaf6a0895120e89eaa6364b1632898999e
+Description:  Translation for luci-app-opkg - 한국어 (Korean)
+
+Package: luci-i18n-opkg-mr
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-app-opkg
+Section: luci
+Architecture: all
+Installed-Size: 512
+Filename: luci-i18n-opkg-mr_git-21.187.23424-ddedcfd_all.ipk
+Size: 1324
+SHA256sum: b8de7e73b2074e11e9cc7a89d9bd381207ca1f0c5f7b66b99c5974ad776be387
+Description:  Translation for luci-app-opkg - Marāṭhī (Marathi)
+
+Package: luci-i18n-opkg-ms
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-app-opkg
+Section: luci
+Architecture: all
+Installed-Size: 829
+Filename: luci-i18n-opkg-ms_git-21.187.23424-ddedcfd_all.ipk
+Size: 1633
+SHA256sum: 3c0fc8132155375167e1df9d80702c4b93be45fa70809edf9b887185b3e8d6a7
+Description:  Translation for luci-app-opkg - Bahasa Melayu (Malay)
+
+Package: luci-i18n-opkg-no
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-app-opkg
+Section: luci
+Architecture: all
+Installed-Size: 1213
+Filename: luci-i18n-opkg-no_git-21.187.23424-ddedcfd_all.ipk
+Size: 2022
+SHA256sum: f02afc99a38955a917fc9f20f4f5271b6689c26d39957e5f1098fe05da01b35e
+Description:  Translation for luci-app-opkg - Norsk (Norwegian)
+
+Package: luci-i18n-opkg-pl
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-app-opkg
+Section: luci
+Architecture: all
+Installed-Size: 2198
+Filename: luci-i18n-opkg-pl_git-21.187.23424-ddedcfd_all.ipk
+Size: 3003
+SHA256sum: ecbf8c53c7b152d626bf5a8c2cead4924a793a6a7155ca027d538d0263da57da
+Description:  Translation for luci-app-opkg - Polski (Polish)
+
+Package: luci-i18n-opkg-pt-br
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-app-opkg
+Section: luci
+Architecture: all
+Installed-Size: 2113
+Filename: luci-i18n-opkg-pt-br_git-21.187.23424-ddedcfd_all.ipk
+Size: 2937
+SHA256sum: 08f78fb89ecbe992b1dac69318ffa2c25bf9dd308b2a6799a3ef46a81aa98214
+Description:  Translation for luci-app-opkg - Português do Brasil (Brazilian Portuguese)
+
+Package: luci-i18n-opkg-pt
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-app-opkg
+Section: luci
+Architecture: all
+Installed-Size: 2085
+Filename: luci-i18n-opkg-pt_git-21.187.23424-ddedcfd_all.ipk
+Size: 2897
+SHA256sum: 3a9be811aed0d416d28fc598cce97853cf89288abe7fa17efed9e161f28e0500
+Description:  Translation for luci-app-opkg - Português (Portuguese)
+
+Package: luci-i18n-opkg-ro
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-app-opkg
+Section: luci
+Architecture: all
+Installed-Size: 928
+Filename: luci-i18n-opkg-ro_git-21.187.23424-ddedcfd_all.ipk
+Size: 1736
+SHA256sum: 8d790f02e9032a33a91b54e93d5d02f72c6c772e9d69300995b657855fe16d03
+Description:  Translation for luci-app-opkg - Română (Romanian)
+
+Package: luci-i18n-opkg-ru
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-app-opkg
+Section: luci
+Architecture: all
+Installed-Size: 2503
+Filename: luci-i18n-opkg-ru_git-21.187.23424-ddedcfd_all.ipk
+Size: 3301
+SHA256sum: 76556e15caed3af6b9afafc88c7ce44044884f27e56ce5d8b895f3bbb8cc9dfe
+Description:  Translation for luci-app-opkg - Русский (Russian)
+
+Package: luci-i18n-opkg-sk
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-app-opkg
+Section: luci
+Architecture: all
+Installed-Size: 2280
+Filename: luci-i18n-opkg-sk_git-21.187.23424-ddedcfd_all.ipk
+Size: 3063
+SHA256sum: a574acacdc9213dd2c178fcfd747765a2820adcd1eb12799dcb58201194e387c
+Description:  Translation for luci-app-opkg - Slovenčina (Slovak)
+
+Package: luci-i18n-opkg-sv
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-app-opkg
+Section: luci
+Architecture: all
+Installed-Size: 2012
+Filename: luci-i18n-opkg-sv_git-21.187.23424-ddedcfd_all.ipk
+Size: 2828
+SHA256sum: 22c010f0a1ed9602f50d25d01efcd1753a1b54d5c4e97b732d75752b45ea12c6
+Description:  Translation for luci-app-opkg - Svenska (Swedish)
+
+Package: luci-i18n-opkg-tr
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-app-opkg
+Section: luci
+Architecture: all
+Installed-Size: 2174
+Filename: luci-i18n-opkg-tr_git-21.187.23424-ddedcfd_all.ipk
+Size: 2989
+SHA256sum: 0267a0db1078227a276601c951f04207afc6e4f384187ceb591fcb9dbe3a5ca2
+Description:  Translation for luci-app-opkg - Türkçe (Turkish)
+
+Package: luci-i18n-opkg-uk
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-app-opkg
+Section: luci
+Architecture: all
+Installed-Size: 2477
+Filename: luci-i18n-opkg-uk_git-21.187.23424-ddedcfd_all.ipk
+Size: 3285
+SHA256sum: 659baa44cd9560a5d1d0ad81ea7b86178292025ae6b8988303ad267c710537b3
+Description:  Translation for luci-app-opkg - Українська (Ukrainian)
+
+Package: luci-i18n-opkg-vi
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-app-opkg
+Section: luci
+Architecture: all
+Installed-Size: 871
+Filename: luci-i18n-opkg-vi_git-21.187.23424-ddedcfd_all.ipk
+Size: 1678
+SHA256sum: 841c4ea927fbe87e66068eb52a459d39f28290ee8e5c6e40ce92599f762144d1
+Description:  Translation for luci-app-opkg - Tiếng Việt (Vietnamese)
+
+Package: luci-i18n-opkg-zh-cn
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-app-opkg
+Section: luci
+Architecture: all
+Installed-Size: 2046
+Filename: luci-i18n-opkg-zh-cn_git-21.187.23424-ddedcfd_all.ipk
+Size: 2885
+SHA256sum: bec650ebcbe812775d3d00823874c878bb09e68d0967af6b27ed7333cd1205f6
+Description:  Translation for luci-app-opkg - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-opkg-zh-tw
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-app-opkg
+Section: luci
+Architecture: all
+Installed-Size: 2092
+Filename: luci-i18n-opkg-zh-tw_git-21.187.23424-ddedcfd_all.ipk
+Size: 2932
+SHA256sum: c1487a151eb1623aafb4e6da5a7b9f2a38e409031e314e65f500e440e03e24a0
+Description:  Translation for luci-app-opkg - 繁體中文 (Chinese Traditional)
+
+Package: luci-lib-base
+Version: git-21.187.23424-ddedcfd
+Depends: libc, lua, luci-lib-nixio, luci-lib-ip, luci-lib-jsonc, liblucihttp-lua
+Section: luci
+Architecture: all
+Installed-Size: 12487
+Filename: luci-lib-base_git-21.187.23424-ddedcfd_all.ipk
+Size: 13341
+SHA256sum: f17a6fb810241f02779aff4b3ebd358ce733b0ebf0f7dec6c557185a020265b3
+Description:  basic libraries for luci
+
+Package: luci-lib-ip
+Version: git-21.187.23424-ddedcfd
+Depends: libc, liblua5.1.5, libnl-tiny1
+License: Apache-2.0
+Section: luci
+Architecture: x86_64
+Installed-Size: 12188
+Filename: luci-lib-ip_git-21.187.23424-ddedcfd_x86_64.ipk
+Size: 13062
+SHA256sum: 874013d0883eebebec59d45c2112affcdb0cb61bb60330fbb495ea589067af53
+Description:  Lua library for IP calculation and routing information
+
+Package: luci-lib-jsonc
+Version: git-21.187.23424-ddedcfd
+Depends: libc, liblua5.1.5, libjson-c5
+Section: luci
+Architecture: x86_64
+Installed-Size: 4336
+Filename: luci-lib-jsonc_git-21.187.23424-ddedcfd_x86_64.ipk
+Size: 5143
+SHA256sum: 7e66be5b1a32a479d4c881629f3c5634ef4e538abfeb16062950abf1899b0074
+Description:  Lua binding for JSON-C
+
+Package: luci-lib-nixio
+Version: git-21.187.23424-ddedcfd
+Depends: libc, liblua5.1.5
+License: Apache-2.0
+Section: luci
+Architecture: x86_64
+Installed-Size: 32931
+Filename: luci-lib-nixio_git-21.187.23424-ddedcfd_x86_64.ipk
+Size: 33779
+SHA256sum: ae6d262ca010e8d9479359301e99d30261c1d4eb9e24e8d0b888818659c86bb3
+Description:  NIXIO POSIX library
+
+Package: luci-mod-admin-full
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-base, luci-mod-status, luci-mod-system, luci-mod-network
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 94
+Filename: luci-mod-admin-full_git-21.187.23424-ddedcfd_all.ipk
+Size: 960
+SHA256sum: 369ec2ac653d50e31ad2c2f32e4e239f9d0d9a806809bf815c8d5fda20919b76
+Description:  LuCI Administration - full-featured for full control
+
+Package: luci-mod-network
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-base, libiwinfo-lua, rpcd-mod-iwinfo
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 46020
+Filename: luci-mod-network_git-21.187.23424-ddedcfd_all.ipk
+Size: 46932
+SHA256sum: 2fce324a21e6ea8482a3c310903d02732e5d4287d54c8f5e50ee91ccd965de8e
+Description:  LuCI Network Administration
+
+Package: luci-mod-status
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-base, libiwinfo20210430, libiwinfo-lua
+License: Apache-2.0
+Section: luci
+Architecture: x86_64
+Installed-Size: 28440
+Filename: luci-mod-status_git-21.187.23424-ddedcfd_x86_64.ipk
+Size: 29260
+SHA256sum: c7a2ce0036715223ff824a945fb5bb300b9fc65b2b215a4562331ed2879297b4
+Description:  LuCI Status Pages
+
+Package: luci-mod-system
+Version: git-21.187.23424-ddedcfd
+Depends: libc, luci-base
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 17444
+Filename: luci-mod-system_git-21.187.23424-ddedcfd_all.ipk
+Size: 18323
+SHA256sum: 394fb474bc9df69e6ca1f66995e6b02504bc7ee76269cc1b5afa18e0e23d60af
+Description:  LuCI Administration - Global System Settings
+
+Package: luci-proto-ipv6
+Version: git-21.187.23424-ddedcfd
+Depends: libc
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 2585
+Filename: luci-proto-ipv6_git-21.187.23424-ddedcfd_all.ipk
+Size: 3460
+SHA256sum: 70b6a307348ead07ab44944354961c9ecd2567a05bfb94da678be7044a87797d
+Description:  Support for DHCPv6/6in4/6to4/6rd/DS-Lite
+
+Package: luci-proto-ppp
+Version: git-21.187.23424-ddedcfd
+Depends: libc
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 2197
+Filename: luci-proto-ppp_git-21.187.23424-ddedcfd_all.ipk
+Size: 3015
+SHA256sum: cb99afb64ee5135235ff61aad0189b8526baee243fe29bcd66234830444c8e08
+Description:  Support for PPP/PPPoE/PPPoA/PPtP
+
+Package: luci-theme-bootstrap
+Version: git-21.187.23424-ddedcfd
+Depends: libc
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 13442
+Filename: luci-theme-bootstrap_git-21.187.23424-ddedcfd_all.ipk
+Size: 14251
+SHA256sum: c9e89cfbd01b26c9f97a1106a09bc2fb6fe9efb01a20e2e5cd87753dad082ec5
+Description:  Bootstrap Theme (default)
+
+Package: luci
+Version: git-21.187.23424-ddedcfd
+Depends: libc, uhttpd, uhttpd-mod-ubus, luci-mod-admin-full, luci-theme-bootstrap, luci-app-firewall, luci-app-opkg, luci-proto-ppp, libiwinfo-lua, luci-proto-ipv6, rpcd-mod-rrdns
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 94
+Filename: luci_git-21.187.23424-ddedcfd_all.ipk
+Size: 1038
+SHA256sum: 6749d58536be50dbc172a4c5b0f229b5e43dbfcb012313011efb0ce7b9a304d3
+Description:  Standard OpenWrt set including full admin with ppp support and the default Bootstrap theme
+
+Package: rpcd-mod-luci
+Version: 20210614
+Depends: libc, rpcd, libubox20210516, libubus20210630, libnl-tiny1
+License: Apache-2.0
+Section: libs
+Architecture: x86_64
+Installed-Size: 13407
+Filename: rpcd-mod-luci_20210614_x86_64.ipk
+Size: 14216
+SHA256sum: 385dc301cc4324fe532ab59863a18027156296f067c529af96c239994b1d4415
+Description:  Provides LuCI backend ubus RPC operations.
+
+Package: rpcd-mod-rrdns
+Version: 20170710
+Depends: libc, rpcd, libubox20210516, libubus20210630
+License: Apache-2.0
+Section: libs
+Architecture: x86_64
+Installed-Size: 3855
+Filename: rpcd-mod-rrdns_20170710_x86_64.ipk
+Size: 4675
+SHA256sum: b340ad409cf0f21025898dd7f0bec068ae73205bbda80720191524f6148e51ea
+Description:  Provides rapid mass reverse DNS lookup functionality.
+
