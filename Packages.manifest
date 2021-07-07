@@ -1,0 +1,4679 @@
+Package: acl
+Version: 2.3.1-1
+Depends: libc, libacl
+Source: feeds/packages/utils/acl
+SourceName: acl
+License: LGPL-2.1 GPL-2.0
+LicenseFiles: doc/COPYING doc/COPYING.LGPL
+Section: utils
+SourceDateEpoch: 1625626742
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 16261
+Filename: acl_2.3.1-1_mips_24kc.ipk
+Size: 16895
+SHA256sum: e912ca4f537c0f186570182d127cc270487a1e1963a2dce05915b02ff4704eff
+Description:  Access control list support
+ This package provides ACL manipulation utilities
+ - chacl
+ - getfacl
+ - setfacl
+
+Package: attr
+Version: 2.5.1-1
+Depends: libc, libattr
+Source: feeds/packages/utils/attr
+SourceName: attr
+License: GPL-2.0-or-later
+LicenseFiles: doc/COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 11024
+Filename: attr_2.5.1-1_mips_24kc.ipk
+Size: 11805
+SHA256sum: f7133d374d814baa3184e5fc4afef19b7574551a0a170f96180df6c0a86550ad
+Description:  Extended attributes support
+ This package provides xattr manipulation utilities
+ - attr
+ - getfattr
+ - setfattr
+
+Package: bash
+Version: 5.1-3
+Depends: libc, libncurses6, libreadline8
+Source: feeds/packages/utils/bash
+SourceName: bash
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:bash
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: mips_24kc
+Installed-Size: 353329
+Filename: bash_5.1-3_mips_24kc.ipk
+Size: 353994
+SHA256sum: f6002b001fe3613b5d1ac6dfc4917482eb046ee8445a3673cdbd4ab1c4895121
+Description:  Bash is an sh-compatible command language interpreter that executes
+ commands read from the standard input or from a file. Bash also
+ incorporates useful features from the Korn and C shells (ksh and csh).
+
+Package: boost-atomic
+Version: 1.76.0-1
+Depends: libc, libstdcpp6, libpthread, librt, boost-system
+Source: feeds/packages/libs/boost
+SourceName: boost-atomic
+License: BSL-1.0
+LicenseFiles: LICENSE_1_0.txt
+Section: libs
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:boost:boost
+Maintainer: Carlos M. Ferreira <carlosmf.pt@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 3536
+Filename: boost-atomic_1.76.0-1_mips_24kc.ipk
+Size: 4318
+SHA256sum: 5d30d133e842c018a6363d5de1e6b054062c0abe23dcf067689374c614a3752c
+Description:  This package contains the Boost atomic library.
+
+Package: boost-chrono
+Version: 1.76.0-1
+Depends: libc, libstdcpp6, libpthread, librt, boost-system
+Source: feeds/packages/libs/boost
+SourceName: boost-chrono
+License: BSL-1.0
+LicenseFiles: LICENSE_1_0.txt
+Section: libs
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:boost:boost
+Maintainer: Carlos M. Ferreira <carlosmf.pt@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 10991
+Filename: boost-chrono_1.76.0-1_mips_24kc.ipk
+Size: 11797
+SHA256sum: d9b4afd9022d8ce50ed383f43b1c0466af9cd06e022a9cb0e34531f79968fc56
+Description:  This package contains the Boost chrono library.
+
+Package: boost-container
+Version: 1.76.0-1
+Depends: libc, libstdcpp6, libpthread, librt
+Source: feeds/packages/libs/boost
+SourceName: boost-container
+License: BSL-1.0
+LicenseFiles: LICENSE_1_0.txt
+Section: libs
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:boost:boost
+Maintainer: Carlos M. Ferreira <carlosmf.pt@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 23600
+Filename: boost-container_1.76.0-1_mips_24kc.ipk
+Size: 24392
+SHA256sum: 9cd4f2ea0f5d77aa829ee0d3633b7fcdcb5b7326ee9247973d05deb2d925661c
+Description:  This package contains the Boost container library.
+
+Package: boost-context
+Version: 1.76.0-1
+Depends: libc, libstdcpp6, libpthread, librt, boost-chrono, boost-system
+Source: feeds/packages/libs/boost
+SourceName: boost-context
+License: BSL-1.0
+LicenseFiles: LICENSE_1_0.txt
+Section: libs
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:boost:boost
+Maintainer: Carlos M. Ferreira <carlosmf.pt@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 2260
+Filename: boost-context_1.76.0-1_mips_24kc.ipk
+Size: 3050
+SHA256sum: 4db7b9e02b909b29042f17233ded4f06e3fa5b8be1c44ce6db4e56c9b481c872
+Description:  This package contains the Boost context library.
+
+Package: boost-contract
+Version: 1.76.0-1
+Depends: libc, libstdcpp6, libpthread, librt, boost-system
+Source: feeds/packages/libs/boost
+SourceName: boost-contract
+License: BSL-1.0
+LicenseFiles: LICENSE_1_0.txt
+Section: libs
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:boost:boost
+Maintainer: Carlos M. Ferreira <carlosmf.pt@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 23747
+Filename: boost-contract_1.76.0-1_mips_24kc.ipk
+Size: 24501
+SHA256sum: c8f039c508a1e39e958c5a9155ce5171185e624c2d79a68834a2edb817183222
+Description:  This package contains the Boost contract library.
+
+Package: boost-coroutine
+Version: 1.76.0-1
+Depends: libc, libstdcpp6, libpthread, librt, boost-system, boost-chrono, boost-context, boost-thread
+Source: feeds/packages/libs/boost
+SourceName: boost-coroutine
+License: BSL-1.0
+LicenseFiles: LICENSE_1_0.txt
+Section: libs
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:boost:boost
+Maintainer: Carlos M. Ferreira <carlosmf.pt@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 12048
+Filename: boost-coroutine_1.76.0-1_mips_24kc.ipk
+Size: 12877
+SHA256sum: ac24a1ed36669cf0c6f323d06218234ef7ca6005584bf0ee564bd441328c5e0a
+Description:  This package contains the Boost coroutine library.
+
+Package: boost-date_time
+Version: 1.76.0-1
+Depends: libc, libstdcpp6, libpthread, librt
+Source: feeds/packages/libs/boost
+SourceName: boost-date_time
+License: BSL-1.0
+LicenseFiles: LICENSE_1_0.txt
+Section: libs
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:boost:boost
+Maintainer: Carlos M. Ferreira <carlosmf.pt@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 1007
+Filename: boost-date_time_1.76.0-1_mips_24kc.ipk
+Size: 1807
+SHA256sum: e188852779c07733a1730d31147da34c8bb29c8879c9f0f9547deab75c9a0e62
+Description:  This package contains the Boost date_time library.
+
+Package: boost-fiber
+Version: 1.76.0-1
+Depends: libc, libstdcpp6, libpthread, librt, boost-coroutine, boost-filesystem
+Source: feeds/packages/libs/boost
+SourceName: boost-fiber
+License: BSL-1.0
+LicenseFiles: LICENSE_1_0.txt
+Section: libs
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:boost:boost
+Maintainer: Carlos M. Ferreira <carlosmf.pt@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 24865
+Filename: boost-fiber_1.76.0-1_mips_24kc.ipk
+Size: 25675
+SHA256sum: d3856618c56e123d6ea609ef31d8b2b1baded36d73245cca703f1508f4fa4920
+Description:  This package contains the Boost fiber library.
+
+Package: boost-filesystem
+Version: 1.76.0-1
+Depends: libc, libstdcpp6, libpthread, librt, boost-system
+Source: feeds/packages/libs/boost
+SourceName: boost-filesystem
+License: BSL-1.0
+LicenseFiles: LICENSE_1_0.txt
+Section: libs
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:boost:boost
+Maintainer: Carlos M. Ferreira <carlosmf.pt@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 40674
+Filename: boost-filesystem_1.76.0-1_mips_24kc.ipk
+Size: 41509
+SHA256sum: 51e083b3824cf41ad3c978ccb1865fb0c6622798fab94576bec87bda0864a995
+Description:  This package contains the Boost filesystem library.
+
+Package: boost-graph
+Version: 1.76.0-1
+Depends: libc, libstdcpp6, libpthread, librt, boost-regex
+Source: feeds/packages/libs/boost
+SourceName: boost-graph
+License: BSL-1.0
+LicenseFiles: LICENSE_1_0.txt
+Section: libs
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:boost:boost
+Maintainer: Carlos M. Ferreira <carlosmf.pt@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 111542
+Filename: boost-graph_1.76.0-1_mips_24kc.ipk
+Size: 111862
+SHA256sum: ed3b89bc6166c4a9c415ac999ad56e612442443a47254c77cd5cff115d6cd169
+Description:  This package contains the Boost graph library.
+
+Package: boost-iostreams
+Version: 1.76.0-1
+Depends: libc, libstdcpp6, libpthread, librt, zlib, liblzma, libbz2-1.0, libzstd
+Source: feeds/packages/libs/boost
+SourceName: boost-iostreams
+License: BSL-1.0
+LicenseFiles: LICENSE_1_0.txt
+Section: libs
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:boost:boost
+Maintainer: Carlos M. Ferreira <carlosmf.pt@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 21280
+Filename: boost-iostreams_1.76.0-1_mips_24kc.ipk
+Size: 22098
+SHA256sum: c7b5f8e2de0d917e27797dc424b42c18357ba8be6e33c6ef78192044b1c7c3d4
+Description:  This package contains the Boost iostreams library.
+
+Package: boost-json
+Version: 1.76.0-1
+Depends: libc, libstdcpp6, libpthread, librt, boost-container
+Source: feeds/packages/libs/boost
+SourceName: boost-json
+License: BSL-1.0
+LicenseFiles: LICENSE_1_0.txt
+Section: libs
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:boost:boost
+Maintainer: Carlos M. Ferreira <carlosmf.pt@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 85787
+Filename: boost-json_1.76.0-1_mips_24kc.ipk
+Size: 86598
+SHA256sum: bfad73cd901efb1c1fa1e4445fb5d01b6820906f06ba4ab3026a2919bbf4838e
+Description:  This package contains the Boost json library.
+
+Package: boost-libs
+Version: 1.76.0-1
+Depends: libc, libstdcpp6, libpthread, librt, boost-atomic, boost-chrono, boost-container, boost-context, boost-contract, boost-coroutine, boost-date_time, boost-fiber, boost-filesystem, boost-graph, boost-iostreams, boost-json, boost-locale, boost-log, boost-math, boost-nowide, boost-program_options, boost-python3, boost-random, boost-regex, boost-serialization, boost-wserialization, boost-stacktrace, boost-system, boost-thread, boost-timer, boost-type_erasure, boost-wave
+Source: feeds/packages/libs/boost
+SourceName: boost-libs
+License: BSL-1.0
+LicenseFiles: LICENSE_1_0.txt
+Section: libs
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:boost:boost
+Maintainer: Carlos M. Ferreira <carlosmf.pt@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 97
+Filename: boost-libs_1.76.0-1_mips_24kc.ipk
+Size: 1088
+SHA256sum: ae685e11a03f0b47ec9b628e007080527ae55b35ef3c1c2caf1387aefdc4fc8e
+Description:  This meta package contains only dependencies to the other libraries from
+ the boost libraries collection.
+
+Package: boost-locale
+Version: 1.76.0-1
+Depends: libc, libstdcpp6, libpthread, librt, boost-system, boost-chrono, boost-thread, icu69
+Source: feeds/packages/libs/boost
+SourceName: boost-locale
+License: BSL-1.0
+LicenseFiles: LICENSE_1_0.txt
+Section: libs
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:boost:boost
+Maintainer: Carlos M. Ferreira <carlosmf.pt@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 129554
+Filename: boost-locale_1.76.0-1_mips_24kc.ipk
+Size: 129671
+SHA256sum: 74d8e259e439e5ed62a2ad429aa8b341bd6832ca6eb3f0f82e7a9e827674015a
+Description:  This package contains the Boost locale library.
+
+Package: boost-log
+Version: 1.76.0-1
+Depends: libc, libstdcpp6, libpthread, librt, boost-system, boost-chrono, boost-date_time, boost-thread, boost-filesystem, boost-regex
+Source: feeds/packages/libs/boost
+SourceName: boost-log
+License: BSL-1.0
+LicenseFiles: LICENSE_1_0.txt
+Section: libs
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:boost:boost
+Maintainer: Carlos M. Ferreira <carlosmf.pt@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 407958
+Filename: boost-log_1.76.0-1_mips_24kc.ipk
+Size: 406432
+SHA256sum: 6666c1d2b874a33a069a46eaf5ad1f45919f382c38c5ea820900805f0fd88d29
+Description:  This package contains the Boost log library.
+
+Package: boost-math
+Version: 1.76.0-1
+Depends: libc, libstdcpp6, libpthread, librt
+Source: feeds/packages/libs/boost
+SourceName: boost-math
+License: BSL-1.0
+LicenseFiles: LICENSE_1_0.txt
+Section: libs
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:boost:boost
+Maintainer: Carlos M. Ferreira <carlosmf.pt@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 242237
+Filename: boost-math_1.76.0-1_mips_24kc.ipk
+Size: 242944
+SHA256sum: b43a23153f0b8c01c0ab4f4e8b6a35a25f784ad934d629bb88631f0e117420f3
+Description:  This package contains the Boost math library.
+
+Package: boost-nowide
+Version: 1.76.0-1
+Depends: libc, libstdcpp6, libpthread, librt
+Source: feeds/packages/libs/boost
+SourceName: boost-nowide
+License: BSL-1.0
+LicenseFiles: LICENSE_1_0.txt
+Section: libs
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:boost:boost
+Maintainer: Carlos M. Ferreira <carlosmf.pt@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 2487
+Filename: boost-nowide_1.76.0-1_mips_24kc.ipk
+Size: 3256
+SHA256sum: c9bbadd674c9f0fc641aa4a1ae1fc66c72d84be1fe5df0a6ff9b0fc2bd943a41
+Description:  This package contains the Boost nowide library.
+
+Package: boost-program_options
+Version: 1.76.0-1
+Depends: libc, libstdcpp6, libpthread, librt
+Source: feeds/packages/libs/boost
+SourceName: boost-program_options
+License: BSL-1.0
+LicenseFiles: LICENSE_1_0.txt
+Section: libs
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:boost:boost
+Maintainer: Carlos M. Ferreira <carlosmf.pt@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 79079
+Filename: boost-program_options_1.76.0-1_mips_24kc.ipk
+Size: 79893
+SHA256sum: 97d4bd4480f7beff67f7b2462a417eaab76b1c39435eb44ff8857ce626e6831a
+Description:  This package contains the Boost program_options library.
+
+Package: boost-python3
+Version: 1.76.0-1
+Depends: libc, libstdcpp6, libpthread, librt, python3-base
+Source: feeds/packages/libs/boost
+SourceName: boost-python3
+License: BSL-1.0
+LicenseFiles: LICENSE_1_0.txt
+Section: libs
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:boost:boost
+Maintainer: Carlos M. Ferreira <carlosmf.pt@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 73243
+Filename: boost-python3_1.76.0-1_mips_24kc.ipk
+Size: 73961
+SHA256sum: c19e05a403092d1768e41c3621ea122168ec78cd2a7dc76428f8aaff011446cc
+Description:  This package contains the Boost python3 library.
+
+Package: boost-random
+Version: 1.76.0-1
+Depends: libc, libstdcpp6, libpthread, librt, boost-system
+Source: feeds/packages/libs/boost
+SourceName: boost-random
+License: BSL-1.0
+LicenseFiles: LICENSE_1_0.txt
+Section: libs
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:boost:boost
+Maintainer: Carlos M. Ferreira <carlosmf.pt@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 9869
+Filename: boost-random_1.76.0-1_mips_24kc.ipk
+Size: 10690
+SHA256sum: 67fbb12a23f1de1d4e0c37488d93e4468f6c13d45d39b55a52bbc39bd1ac8b0b
+Description:  This package contains the Boost random library.
+
+Package: boost-regex
+Version: 1.76.0-1
+Depends: libc, libstdcpp6, libpthread, librt, icu69
+Source: feeds/packages/libs/boost
+SourceName: boost-regex
+License: BSL-1.0
+LicenseFiles: LICENSE_1_0.txt
+Section: libs
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:boost:boost
+Maintainer: Carlos M. Ferreira <carlosmf.pt@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 93656
+Filename: boost-regex_1.76.0-1_mips_24kc.ipk
+Size: 93996
+SHA256sum: c2a973f6b6489ecf31a7e8228a8793b25249b5d6015a1a267238e49bfa522982
+Description:  This package contains the Boost regex library.
+
+Package: boost-serialization
+Version: 1.76.0-1
+Depends: libc, libstdcpp6, libpthread, librt
+Source: feeds/packages/libs/boost
+SourceName: boost-serialization
+License: BSL-1.0
+LicenseFiles: LICENSE_1_0.txt
+Section: libs
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:boost:boost
+Maintainer: Carlos M. Ferreira <carlosmf.pt@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 67335
+Filename: boost-serialization_1.76.0-1_mips_24kc.ipk
+Size: 67859
+SHA256sum: b84b747eb8d9e6ededcf5ccd4ae9f353c03b022a54ed0702aee2b835dbaa1345
+Description:  This package contains the Boost serialization library.
+
+Package: boost-stacktrace
+Version: 1.76.0-1
+Depends: libc, libstdcpp6, libpthread, librt
+Source: feeds/packages/libs/boost
+SourceName: boost-stacktrace
+License: BSL-1.0
+LicenseFiles: LICENSE_1_0.txt
+Section: libs
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:boost:boost
+Maintainer: Carlos M. Ferreira <carlosmf.pt@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 5620
+Filename: boost-stacktrace_1.76.0-1_mips_24kc.ipk
+Size: 6409
+SHA256sum: 08665559d4405cc46837366db914ec26fe143c94a886d45a78d45209e493775f
+Description:  This package contains the Boost stacktrace library.
+
+Package: boost-system
+Version: 1.76.0-1
+Depends: libc, libstdcpp6, libpthread, librt
+Source: feeds/packages/libs/boost
+SourceName: boost-system
+License: BSL-1.0
+LicenseFiles: LICENSE_1_0.txt
+Section: libs
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:boost:boost
+Maintainer: Carlos M. Ferreira <carlosmf.pt@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 994
+Filename: boost-system_1.76.0-1_mips_24kc.ipk
+Size: 1790
+SHA256sum: 088c481369d52fd00ec4c471215f0be686fc0a160bf03be8fd46df6cefe1a3bf
+Description:  This package contains the Boost system library.
+
+Package: boost-test
+Version: 1.76.0-1
+Depends: libc, libstdcpp6, libpthread, librt, boost-system, boost-timer
+Source: feeds/packages/libs/boost
+SourceName: boost-test
+License: BSL-1.0
+LicenseFiles: LICENSE_1_0.txt
+Section: libs
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:boost:boost
+Maintainer: Carlos M. Ferreira <carlosmf.pt@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 193547
+Filename: boost-test_1.76.0-1_mips_24kc.ipk
+Size: 193381
+SHA256sum: 8a874be4bf549208c8d5d2c23ee464aaa9fe0fe57b5085eb95c93ee6f6b81313
+Description:  Boost C++ source library (test)
+
+Package: boost-thread
+Version: 1.76.0-1
+Depends: libc, libstdcpp6, libpthread, librt, boost-system, boost-chrono, boost-atomic
+Source: feeds/packages/libs/boost
+SourceName: boost-thread
+License: BSL-1.0
+LicenseFiles: LICENSE_1_0.txt
+Section: libs
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:boost:boost
+Maintainer: Carlos M. Ferreira <carlosmf.pt@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 32036
+Filename: boost-thread_1.76.0-1_mips_24kc.ipk
+Size: 32808
+SHA256sum: 216580660440ca1f623b61a88caa368541f3738b769c8483930dce20b4b6e488
+Description:  This package contains the Boost thread library.
+
+Package: boost-timer
+Version: 1.76.0-1
+Depends: libc, libstdcpp6, libpthread, librt, boost-chrono
+Source: feeds/packages/libs/boost
+SourceName: boost-timer
+License: BSL-1.0
+LicenseFiles: LICENSE_1_0.txt
+Section: libs
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:boost:boost
+Maintainer: Carlos M. Ferreira <carlosmf.pt@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 9028
+Filename: boost-timer_1.76.0-1_mips_24kc.ipk
+Size: 9858
+SHA256sum: cc41db52cc3f35bc1742d3d922afdfaec41043b44faf2e8c80aeb68716ad4d51
+Description:  This package contains the Boost timer library.
+
+Package: boost-type_erasure
+Version: 1.76.0-1
+Depends: libc, libstdcpp6, libpthread, librt, boost-chrono, boost-system, boost-thread
+Source: feeds/packages/libs/boost
+SourceName: boost-type_erasure
+License: BSL-1.0
+LicenseFiles: LICENSE_1_0.txt
+Section: libs
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:boost:boost
+Maintainer: Carlos M. Ferreira <carlosmf.pt@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 14034
+Filename: boost-type_erasure_1.76.0-1_mips_24kc.ipk
+Size: 14855
+SHA256sum: b68d63ff60a0b60802d082a4f145d3c5a5f25f0359c766d914d069b6d8a08c68
+Description:  This package contains the Boost type_erasure library.
+
+Package: boost-wave
+Version: 1.76.0-1
+Depends: libc, libstdcpp6, libpthread, librt, boost-date_time, boost-thread, boost-filesystem
+Source: feeds/packages/libs/boost
+SourceName: boost-wave
+License: BSL-1.0
+LicenseFiles: LICENSE_1_0.txt
+Section: libs
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:boost:boost
+Maintainer: Carlos M. Ferreira <carlosmf.pt@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 165087
+Filename: boost-wave_1.76.0-1_mips_24kc.ipk
+Size: 164604
+SHA256sum: 3318cc6e84fdacd3a215bcda0ef8684cd8d11f56d9366eb0dbfd3e30ddb36b93
+Description:  This package contains the Boost wave library.
+
+Package: boost-wserialization
+Version: 1.76.0-1
+Depends: libc, libstdcpp6, libpthread, librt, boost-serialization
+Source: feeds/packages/libs/boost
+SourceName: boost-wserialization
+License: BSL-1.0
+LicenseFiles: LICENSE_1_0.txt
+Section: libs
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:boost:boost
+Maintainer: Carlos M. Ferreira <carlosmf.pt@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 46974
+Filename: boost-wserialization_1.76.0-1_mips_24kc.ipk
+Size: 47570
+SHA256sum: 6a26952c393737454a165a9f3228513c186521986656cbc4647be5a448af6566
+Description:  This package contains the Boost wserialization library.
+
+Package: boost
+Version: 1.76.0-1
+Depends: libc, libstdcpp6, libpthread, librt
+Source: feeds/packages/libs/boost
+SourceName: boost
+License: BSL-1.0
+LicenseFiles: LICENSE_1_0.txt
+Section: libs
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:boost:boost
+Maintainer: Carlos M. Ferreira <carlosmf.pt@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 97
+Filename: boost_1.76.0-1_mips_24kc.ipk
+Size: 1220
+SHA256sum: 90f71086e44ff22acaae7b05c2a8f46379db360c1e511d41d8522d791fe7ac9c
+Description:  This package provides the Boost v1.76.0 libraries.
+ Boost is a set of free, peer-reviewed, portable C++ source libraries.
+ 
+ This package provides the following run-time libraries:
+ - atomic
+ - chrono
+ - container
+ - context
+ - contract
+ - coroutine and coroutine2 (Coroutine is deprecated - use Coroutine2)
+ - date_time
+ - exception
+ - filesystem
+ - fiber
+ - graph
+ - - graph-parallel
+ - iostreams
+ - json
+ - locale
+ - log
+ - math
+ - nowide
+ - program_options
+ - python3
+ - random
+ - regex
+ - serialization and wserialization
+ - stackstrace
+ - system
+ - thread
+ - timer
+ - type_erasure
+ - wave
+ 
+ There are many more header-only libraries supported by Boost.
+ See more at http://www.boost.org/doc/libs/1_76_0/
+
+Package: cgi-io
+Version: 2020-10-27-ab4c3471-19
+Depends: libc, libubox20210516, libubus20210630
+Source: feeds/packages/net/cgi-io
+SourceName: cgi-io
+License: GPL-2.0-or-later
+Section: net
+SourceDateEpoch: 1625626742
+Maintainer: John Crispin <blogic@openwrt.org>
+Architecture: mips_24kc
+Installed-Size: 7494
+Filename: cgi-io_2020-10-27-ab4c3471-19_mips_24kc.ipk
+Size: 8302
+SHA256sum: 95f2ea32ab67a5edf558abb07fe957728d1c83c6227bfad8239d070b67cb442a
+Description:  This package contains an cgi utility that is useful for up/downloading files
+
+Package: coreutils-b2sum
+Version: 8.32-6
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-b2sum
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 27228
+Filename: coreutils-b2sum_8.32-6_mips_24kc.ipk
+Size: 27986
+SHA256sum: acfd568c8dc6262adcb1e7d3e538c7ba36f4dcd169dca2b854669d73d541917f
+Description:  Full version of standard GNU b2sum utility.
+
+Package: coreutils-base32
+Version: 8.32-6
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-base32
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 17755
+Filename: coreutils-base32_8.32-6_mips_24kc.ipk
+Size: 18532
+SHA256sum: 0892b770c388d9dca1cfdc32f6ab07293c178ad62af7972ec91b74809a74a64e
+Description:  Full version of standard GNU base32 utility.
+
+Package: coreutils-base64
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/base64:/usr/libexec/base64-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-base64
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 17710
+Filename: coreutils-base64_8.32-6_mips_24kc.ipk
+Size: 18521
+SHA256sum: c44fb3d6ba542931be9744870e2255a2b9b8ad16aae0cb500d6533b33905fe4c
+Description:  Full version of standard GNU base64 utility.
+
+Package: coreutils-basename
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/basename:/usr/libexec/basename-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-basename
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 15409
+Filename: coreutils-basename_8.32-6_mips_24kc.ipk
+Size: 16173
+SHA256sum: bdb2854bfacb88b0e92b7a276bdf359bbe3b2778c9004c25733266f4e92c67f3
+Description:  Full version of standard GNU basename utility.
+
+Package: coreutils-basenc
+Version: 8.32-6
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-basenc
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 20438
+Filename: coreutils-basenc_8.32-6_mips_24kc.ipk
+Size: 21233
+SHA256sum: c98a5f79f971b4721f0526a29163964f9339d2e25e577bc914a9c00ba9eb2776
+Description:  Full version of standard GNU basenc utility.
+
+Package: coreutils-cat
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/cat:/usr/libexec/cat-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-cat
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 16725
+Filename: coreutils-cat_8.32-6_mips_24kc.ipk
+Size: 17533
+SHA256sum: 08587695b67b3fe0ddc602981a2d9988b39e122c09f9a992c7b3492fa18b7568
+Description:  Full version of standard GNU cat utility.
+
+Package: coreutils-chcon
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/chcon:/usr/libexec/chcon-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-chcon
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 25130
+Filename: coreutils-chcon_8.32-6_mips_24kc.ipk
+Size: 25871
+SHA256sum: fa6fc2277be7a01175d6883558b62aa57fe645d3edc47e7344b355508c4a22b2
+Description:  Full version of standard GNU chcon utility.
+
+Package: coreutils-chgrp
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/chgrp:/usr/libexec/chgrp-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-chgrp
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 26855
+Filename: coreutils-chgrp_8.32-6_mips_24kc.ipk
+Size: 27570
+SHA256sum: 763024f83cd304c91ff9e0004c6efd316c5fce7b539aaa0556f51e4ae9ac2d2d
+Description:  Full version of standard GNU chgrp utility.
+
+Package: coreutils-chmod
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/chmod:/usr/libexec/chmod-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-chmod
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 24688
+Filename: coreutils-chmod_8.32-6_mips_24kc.ipk
+Size: 25389
+SHA256sum: 92c9905af27489db0257094bbc2d0533c92dd6cdcd9bd5107d342411d562dae0
+Description:  Full version of standard GNU chmod utility.
+
+Package: coreutils-chown
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/chown:/usr/libexec/chown-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-chown
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 27538
+Filename: coreutils-chown_8.32-6_mips_24kc.ipk
+Size: 28197
+SHA256sum: 2f88aa1f1fe6e25183d21dde7e7891cbe418230cad235bfc6bbe4be50906d1f9
+Description:  Full version of standard GNU chown utility.
+
+Package: coreutils-chroot
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/sbin/chroot:/usr/libexec/chroot-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-chroot
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 22087
+Filename: coreutils-chroot_8.32-6_mips_24kc.ipk
+Size: 22803
+SHA256sum: 4ffae7948e31cc609397c02eea30d936dfd3b7d69c08cc2fd447f0eb620fedd6
+Description:  Full version of standard GNU chroot utility.
+
+Package: coreutils-cksum
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/cksum:/usr/libexec/cksum-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-cksum
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 16802
+Filename: coreutils-cksum_8.32-6_mips_24kc.ipk
+Size: 17607
+SHA256sum: 52420e8e56969d9ead926563b877a3859c02097f9c838d0f062f2e62f1c78496
+Description:  Full version of standard GNU cksum utility.
+
+Package: coreutils-comm
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/comm:/usr/libexec/comm-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-comm
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 17636
+Filename: coreutils-comm_8.32-6_mips_24kc.ipk
+Size: 18442
+SHA256sum: 26d59422463b53c21a658bc7db728bb6fc037d1ff7029f918253aeb08bf562a4
+Description:  Full version of standard GNU comm utility.
+
+Package: coreutils-cp
+Version: 8.32-6
+Depends: libc, coreutils, libacl
+Alternatives: 300:/bin/cp:/usr/libexec/cp-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-cp
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 41786
+Filename: coreutils-cp_8.32-6_mips_24kc.ipk
+Size: 42428
+SHA256sum: 213957a8b1d0f204ec0584ad3aeb3acbd873ccaaa7414ed38695a4f5905baffa
+Description:  Full version of standard GNU cp utility.
+
+Package: coreutils-csplit
+Version: 8.32-6
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-csplit
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 43957
+Filename: coreutils-csplit_8.32-6_mips_24kc.ipk
+Size: 44725
+SHA256sum: 5270997ba1c9b83a587d2e3e3459c7450cb7667da37b41237218a45dbe92170b
+Description:  Full version of standard GNU csplit utility.
+
+Package: coreutils-cut
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/cut:/usr/libexec/cut-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-cut
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 18883
+Filename: coreutils-cut_8.32-6_mips_24kc.ipk
+Size: 19668
+SHA256sum: 2bfb66e92837e7ba63316a12f9e759147f1a9f9319d8c6c38a69582d60da48bf
+Description:  Full version of standard GNU cut utility.
+
+Package: coreutils-date
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/date:/usr/libexec/date-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-date
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 38145
+Filename: coreutils-date_8.32-6_mips_24kc.ipk
+Size: 39006
+SHA256sum: eac7926673991d83f46c7791e9e73f57e804b393594d7ef03dcc3435b56847db
+Description:  Full version of standard GNU date utility.
+
+Package: coreutils-dd
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/dd:/usr/libexec/dd-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-dd
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 28530
+Filename: coreutils-dd_8.32-6_mips_24kc.ipk
+Size: 29271
+SHA256sum: 202b045b618ddc94b73fb717ea8020f8ced2dca5107b3bf94c22b431af85d80c
+Description:  Full version of standard GNU dd utility.
+
+Package: coreutils-df
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/df:/usr/libexec/df-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-df
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 32884
+Filename: coreutils-df_8.32-6_mips_24kc.ipk
+Size: 33562
+SHA256sum: 9209fcfb536009aad94508a8edd6a7d4f3f6334af52b146935587dfa4ba4dd7e
+Description:  Full version of standard GNU df utility.
+
+Package: coreutils-dir
+Version: 8.32-6
+Depends: libc, coreutils, libacl, libcap
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-dir
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 52611
+Filename: coreutils-dir_8.32-6_mips_24kc.ipk
+Size: 53286
+SHA256sum: 2f23467bf65a13405758879a3312f42f1cc706fa10e5d97dfff30365d2efe1f1
+Description:  Full version of standard GNU dir utility.
+
+Package: coreutils-dircolors
+Version: 8.32-6
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-dircolors
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 23706
+Filename: coreutils-dircolors_8.32-6_mips_24kc.ipk
+Size: 24432
+SHA256sum: 73c4cc9a3fd3991faec2f8aca1f2067c164a8b2a557459cd594222a20693fe78
+Description:  Full version of standard GNU dircolors utility.
+
+Package: coreutils-dirname
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/dirname:/usr/libexec/dirname-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-dirname
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 15201
+Filename: coreutils-dirname_8.32-6_mips_24kc.ipk
+Size: 15970
+SHA256sum: f33f5f88bfedf723e09096bd8f4d719319739800258ffbf5633b6c4bd50e73cd
+Description:  Full version of standard GNU dirname utility.
+
+Package: coreutils-du
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/du:/usr/libexec/du-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-du
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 65776
+Filename: coreutils-du_8.32-6_mips_24kc.ipk
+Size: 66447
+SHA256sum: dbd53e1f283b3ec437c6309bd04081f3cd7dade3a740b6333848aadff3ddf746
+Description:  Full version of standard GNU du utility.
+
+Package: coreutils-echo
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/echo:/usr/libexec/echo-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-echo
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 14013
+Filename: coreutils-echo_8.32-6_mips_24kc.ipk
+Size: 14834
+SHA256sum: c06df76d14e0977bcad5bc476ca10d67d4d536e348e00c9489ec499e988ee122
+Description:  Full version of standard GNU echo utility.
+
+Package: coreutils-env
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/env:/usr/libexec/env-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-env
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 19662
+Filename: coreutils-env_8.32-6_mips_24kc.ipk
+Size: 20451
+SHA256sum: eb881cac69f1a184e0c846f05cd746272b866d676688df1450c188f5a877fe87
+Description:  Full version of standard GNU env utility.
+
+Package: coreutils-expand
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/expand:/usr/libexec/expand-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-expand
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 16891
+Filename: coreutils-expand_8.32-6_mips_24kc.ipk
+Size: 17710
+SHA256sum: 3b770953d9ac1bd53c2a6b24ff9e99b5f28f6a8497401fccde031de957326807
+Description:  Full version of standard GNU expand utility.
+
+Package: coreutils-expr
+Version: 8.32-6
+Depends: libc, coreutils, libgmp10
+Alternatives: 300:/usr/bin/expr:/usr/libexec/expr-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-expr
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 41808
+Filename: coreutils-expr_8.32-6_mips_24kc.ipk
+Size: 42688
+SHA256sum: 213d00ce9a1bd40894c1436af6b1141acc719a6e860baf3ea7e2ba85ccc7e09a
+Description:  Full version of standard GNU expr utility.
+
+Package: coreutils-factor
+Version: 8.32-6
+Depends: libc, coreutils, libgmp10
+Alternatives: 300:/usr/bin/factor:/usr/libexec/factor-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-factor
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 40808
+Filename: coreutils-factor_8.32-6_mips_24kc.ipk
+Size: 41663
+SHA256sum: 39cd10efdfed903906eb8782a517eec27c64ea509ba43f329c5ffb100d0b428a
+Description:  Full version of standard GNU factor utility.
+
+Package: coreutils-false
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/false:/usr/libexec/false-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-false
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 13109
+Filename: coreutils-false_8.32-6_mips_24kc.ipk
+Size: 13921
+SHA256sum: b695c78dac38bcb1fa2fab2c1a4ded52b11c1b2af81d30b442d19dcb1db48f4f
+Description:  Full version of standard GNU false utility.
+
+Package: coreutils-fmt
+Version: 8.32-6
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-fmt
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 18515
+Filename: coreutils-fmt_8.32-6_mips_24kc.ipk
+Size: 19305
+SHA256sum: 3d92ae57815a01f10524d07f07494d1b5eeafb4c01c2dc18e1685dcf27472a15
+Description:  Full version of standard GNU fmt utility.
+
+Package: coreutils-fold
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/fold:/usr/libexec/fold-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-fold
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 16472
+Filename: coreutils-fold_8.32-6_mips_24kc.ipk
+Size: 17286
+SHA256sum: d18e2c97b508e0432a815c2b41abbba084484dab2aae0129efd41e8d4a93710f
+Description:  Full version of standard GNU fold utility.
+
+Package: coreutils-groups
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/groups:/usr/libexec/groups-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-groups
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 15797
+Filename: coreutils-groups_8.32-6_mips_24kc.ipk
+Size: 16561
+SHA256sum: e4def89410483c7983c367a9685e8154ab0f0b438716dba278f35d83522c898f
+Description:  Full version of standard GNU groups utility.
+
+Package: coreutils-head
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/head:/usr/libexec/head-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-head
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 19502
+Filename: coreutils-head_8.32-6_mips_24kc.ipk
+Size: 20313
+SHA256sum: 762f39e66c6591bd7c9a1f85e3cb79bc85bcfcb53f9162b9e5669b34ee0cb7c0
+Description:  Full version of standard GNU head utility.
+
+Package: coreutils-hostid
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/hostid:/usr/libexec/hostid-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-hostid
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 14885
+Filename: coreutils-hostid_8.32-6_mips_24kc.ipk
+Size: 15646
+SHA256sum: d52f18ba1a6fc36c05805d0d6bb136be43ede19d9a0ac77c5de8c05aeb07576a
+Description:  Full version of standard GNU hostid utility.
+
+Package: coreutils-id
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/id:/usr/libexec/id-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-id
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 17830
+Filename: coreutils-id_8.32-6_mips_24kc.ipk
+Size: 18635
+SHA256sum: 7db44f0bed57f128287ddee63bcebf797aa9df7618bc7af10361c416ed96e9f6
+Description:  Full version of standard GNU id utility.
+
+Package: coreutils-install
+Version: 8.32-6
+Depends: libc, coreutils, libacl
+Alternatives: 300:/usr/bin/install:/usr/libexec/install-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-install
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 43475
+Filename: coreutils-install_8.32-6_mips_24kc.ipk
+Size: 44040
+SHA256sum: 0b4378b563f26fd518ecf76b7ef7cdde0e08cbf6c60fef291694be9d9c507498
+Description:  Full version of standard GNU install utility.
+
+Package: coreutils-join
+Version: 8.32-6
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-join
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 20640
+Filename: coreutils-join_8.32-6_mips_24kc.ipk
+Size: 21424
+SHA256sum: 3a7a05a3f618b62a27a433e08d99e88cc4eef9f84bfac2cab36ec349a9ee18b7
+Description:  Full version of standard GNU join utility.
+
+Package: coreutils-kill
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/kill:/usr/libexec/kill-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-kill
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 16647
+Filename: coreutils-kill_8.32-6_mips_24kc.ipk
+Size: 17462
+SHA256sum: d5446dc70371f42a4b6e954663b28cf6150eef596d275de5fe6df5c5a95aede6
+Description:  Full version of standard GNU kill utility.
+
+Package: coreutils-link
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/link:/usr/libexec/link-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-link
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 14961
+Filename: coreutils-link_8.32-6_mips_24kc.ipk
+Size: 15724
+SHA256sum: 43a29930664b212cbc215c219fe0f8c8ad88cc404c9c0d5a64554c345919ede4
+Description:  Full version of standard GNU link utility.
+
+Package: coreutils-ln
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/ln:/usr/libexec/ln-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-ln
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 27666
+Filename: coreutils-ln_8.32-6_mips_24kc.ipk
+Size: 28317
+SHA256sum: 4195c7b1a5b99dc7a15f0ebfaf4bb8fb50c2cfc77ff939da280fba8e551d6a17
+Description:  Full version of standard GNU ln utility.
+
+Package: coreutils-logname
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/logname:/usr/libexec/logname-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-logname
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 14877
+Filename: coreutils-logname_8.32-6_mips_24kc.ipk
+Size: 15633
+SHA256sum: ad042ece7cfd3215f0e108549d006d3c66404d7d6c44e4e7f3572058d1f46090
+Description:  Full version of standard GNU logname utility.
+
+Package: coreutils-ls
+Version: 8.32-6
+Depends: libc, coreutils, libacl, libcap
+Alternatives: 300:/bin/ls:/usr/libexec/ls-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-ls
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 52624
+Filename: coreutils-ls_8.32-6_mips_24kc.ipk
+Size: 53330
+SHA256sum: e1ef2c33c96e4bd506de9d03ca7ad65bc1132d0dab58159ea1e83a8380722185
+Description:  Full version of standard GNU ls utility.
+
+Package: coreutils-md5sum
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/md5sum:/usr/libexec/md5sum-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-md5sum
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 20849
+Filename: coreutils-md5sum_8.32-6_mips_24kc.ipk
+Size: 21672
+SHA256sum: ca5a8a49187c2cdf8bea9ac7b1afceda4f8463e54ace4ce14774b17ac4ff527b
+Description:  Full version of standard GNU md5sum utility.
+
+Package: coreutils-mkdir
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/mkdir:/usr/libexec/mkdir-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-mkdir
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 17926
+Filename: coreutils-mkdir_8.32-6_mips_24kc.ipk
+Size: 18722
+SHA256sum: e8075c5829dc11972ca5038c3da6727a402a201b8514f7d4be27e82fecd6db27
+Description:  Full version of standard GNU mkdir utility.
+
+Package: coreutils-mkfifo
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/mkfifo:/usr/libexec/mkfifo-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-mkfifo
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 15926
+Filename: coreutils-mkfifo_8.32-6_mips_24kc.ipk
+Size: 16685
+SHA256sum: 461bb7aa17032fd390de3360a0fe1e6342403f16f2aa8193e741a98da93bd46e
+Description:  Full version of standard GNU mkfifo utility.
+
+Package: coreutils-mknod
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/mknod:/usr/libexec/mknod-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-mknod
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 17224
+Filename: coreutils-mknod_8.32-6_mips_24kc.ipk
+Size: 18038
+SHA256sum: 5e9b083a98795345db4f1b4d81b2dc7e6b67bb5f4712779955b7e5559eb69ca8
+Description:  Full version of standard GNU mknod utility.
+
+Package: coreutils-mktemp
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/mktemp:/usr/libexec/mktemp-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-mktemp
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 19018
+Filename: coreutils-mktemp_8.32-6_mips_24kc.ipk
+Size: 19804
+SHA256sum: 8d05daf460345399eb230e206320c0c822e30eb0d46b9152c56939f1b3634c47
+Description:  Full version of standard GNU mktemp utility.
+
+Package: coreutils-mv
+Version: 8.32-6
+Depends: libc, coreutils, libacl
+Alternatives: 300:/bin/mv:/usr/libexec/mv-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-mv
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 44510
+Filename: coreutils-mv_8.32-6_mips_24kc.ipk
+Size: 45106
+SHA256sum: 698270c811a4c5bfeae4e2038c290d1bab82f2445312d266c2a576ce5b8fd26b
+Description:  Full version of standard GNU mv utility.
+
+Package: coreutils-nice
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/nice:/usr/libexec/nice-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-nice
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 15915
+Filename: coreutils-nice_8.32-6_mips_24kc.ipk
+Size: 16676
+SHA256sum: ee3c85349280abe024d56fd5760f8cae7d4ff6e5213bf5403bce1aae446bb5e6
+Description:  Full version of standard GNU nice utility.
+
+Package: coreutils-nl
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/nl:/usr/libexec/nl-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-nl
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 40842
+Filename: coreutils-nl_8.32-6_mips_24kc.ipk
+Size: 41715
+SHA256sum: 05e8cbd59419dad334d01e2f49482eba5076cde8b12e149e56ed011f6a2c051f
+Description:  Full version of standard GNU nl utility.
+
+Package: coreutils-nohup
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/nohup:/usr/libexec/nohup-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-nohup
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 16187
+Filename: coreutils-nohup_8.32-6_mips_24kc.ipk
+Size: 16952
+SHA256sum: da2c8f3f33d978eced786cfb53a62e964c78184490cea7107453cdf2c7e9cb5f
+Description:  Full version of standard GNU nohup utility.
+
+Package: coreutils-nproc
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/nproc:/usr/libexec/nproc-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-nproc
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 16138
+Filename: coreutils-nproc_8.32-6_mips_24kc.ipk
+Size: 16906
+SHA256sum: da0d024f8dc6d3eae85ade781e40ddfb339ee94a0f7c55bc78c9958067698948
+Description:  Full version of standard GNU nproc utility.
+
+Package: coreutils-numfmt
+Version: 8.32-6
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-numfmt
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 25396
+Filename: coreutils-numfmt_8.32-6_mips_24kc.ipk
+Size: 26133
+SHA256sum: e6bdcdfd16b3883edebbd978025b5c1bd16ec40a16b27ea352712b7935ac1193
+Description:  Full version of standard GNU numfmt utility.
+
+Package: coreutils-od
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/od:/usr/libexec/od-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-od
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 25592
+Filename: coreutils-od_8.32-6_mips_24kc.ipk
+Size: 26365
+SHA256sum: b5cac4a55116dcfe97f9b91e6b8a3d5fb62c7489b981f09802fc4048333e3754
+Description:  Full version of standard GNU od utility.
+
+Package: coreutils-paste
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/paste:/usr/libexec/paste-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-paste
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 16193
+Filename: coreutils-paste_8.32-6_mips_24kc.ipk
+Size: 16957
+SHA256sum: 390d84e98fdc04df9911d2a458cfc43a8809227cd310c34d2aa18f5282c3d668
+Description:  Full version of standard GNU paste utility.
+
+Package: coreutils-pathchk
+Version: 8.32-6
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-pathchk
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 15576
+Filename: coreutils-pathchk_8.32-6_mips_24kc.ipk
+Size: 16310
+SHA256sum: 6da9a5affa1923e79d1e0ab4e64a5353b1105d9a5c09ffbaf1d1c59e5f5b5537
+Description:  Full version of standard GNU pathchk utility.
+
+Package: coreutils-pinky
+Version: 8.32-6
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-pinky
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 17251
+Filename: coreutils-pinky_8.32-6_mips_24kc.ipk
+Size: 17984
+SHA256sum: 8470e98bc6c8af17510897c7367fe133a3739ecbd740cd0b7b21933150ecf65d
+Description:  Full version of standard GNU pinky utility.
+
+Package: coreutils-pr
+Version: 8.32-6
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-pr
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 29993
+Filename: coreutils-pr_8.32-6_mips_24kc.ipk
+Size: 30715
+SHA256sum: 9e30a3ad951323572c44408115b280c06996f7fc980efe5ece1d44f64bc62a73
+Description:  Full version of standard GNU pr utility.
+
+Package: coreutils-printenv
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/printenv:/usr/libexec/printenv-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-printenv
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 15105
+Filename: coreutils-printenv_8.32-6_mips_24kc.ipk
+Size: 15868
+SHA256sum: 03999ef8b1710eca4b793245cabe23849ce0b3754b163d39914ef7a670c48cf8
+Description:  Full version of standard GNU printenv utility.
+
+Package: coreutils-printf
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/printf:/usr/libexec/printf-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-printf
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 18039
+Filename: coreutils-printf_8.32-6_mips_24kc.ipk
+Size: 18852
+SHA256sum: 6fe0ca29abf44651e8d7b55115188fce73367c821cbdae2b34c1f07806b2b17d
+Description:  Full version of standard GNU printf utility.
+
+Package: coreutils-ptx
+Version: 8.32-6
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-ptx
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 46249
+Filename: coreutils-ptx_8.32-6_mips_24kc.ipk
+Size: 47068
+SHA256sum: 9fa5afb053f045cc660984533235828b6370f7a4289b9fb250e6844f29086967
+Description:  Full version of standard GNU ptx utility.
+
+Package: coreutils-pwd
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/pwd:/usr/libexec/pwd-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-pwd
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 17867
+Filename: coreutils-pwd_8.32-6_mips_24kc.ipk
+Size: 18652
+SHA256sum: 0888b5f5d8d18717548eecff02d0ac462fc7dfdd573a9183288eb69b5f854dd0
+Description:  Full version of standard GNU pwd utility.
+
+Package: coreutils-readlink
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/readlink:/usr/libexec/readlink-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-readlink
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 19728
+Filename: coreutils-readlink_8.32-6_mips_24kc.ipk
+Size: 20485
+SHA256sum: f538f698b87ff8e5b5c025b808a4e46844b06b0dd5273af0ea0c881e406f4796
+Description:  Full version of standard GNU readlink utility.
+
+Package: coreutils-realpath
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/realpath:/usr/libexec/realpath-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-realpath
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 20358
+Filename: coreutils-realpath_8.32-6_mips_24kc.ipk
+Size: 21120
+SHA256sum: 488a21d82888a6cf5909a2838a943269246499a440ceefd68675dcd636af9db9
+Description:  Full version of standard GNU realpath utility.
+
+Package: coreutils-rm
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/rm:/usr/libexec/rm-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-rm
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 25673
+Filename: coreutils-rm_8.32-6_mips_24kc.ipk
+Size: 26411
+SHA256sum: 5ddbf7b12670ade975e7099390935766b579307be4ae61dcaae0b85b75182342
+Description:  Full version of standard GNU rm utility.
+
+Package: coreutils-rmdir
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/rmdir:/usr/libexec/rmdir-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-rmdir
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 15515
+Filename: coreutils-rmdir_8.32-6_mips_24kc.ipk
+Size: 16274
+SHA256sum: f7b4f9cbe938ffb624ae41c08b4af4dbbc3e80bf61ebcbcc048e369839d86da5
+Description:  Full version of standard GNU rmdir utility.
+
+Package: coreutils-runcon
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/runcon:/usr/libexec/runcon-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-runcon
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 15266
+Filename: coreutils-runcon_8.32-6_mips_24kc.ipk
+Size: 16031
+SHA256sum: 8316a9ec1d2e68d45189429d110bdb3cfdc88af985cfd586668a9cd2eefb72e2
+Description:  Full version of standard GNU runcon utility.
+
+Package: coreutils-seq
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/seq:/usr/libexec/seq-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-seq
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 19616
+Filename: coreutils-seq_8.32-6_mips_24kc.ipk
+Size: 20393
+SHA256sum: 5621f1c8fabde9e8a9aa87701205f048c010ec10efcebb561541ed57ba2c36da
+Description:  Full version of standard GNU seq utility.
+
+Package: coreutils-sha1sum
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/sha1sum:/usr/libexec/sha1sum-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-sha1sum
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 22314
+Filename: coreutils-sha1sum_8.32-6_mips_24kc.ipk
+Size: 23137
+SHA256sum: e4efd485969b5ec306d0631bd652fa8136a1431caa647aa57d4505914169a8dc
+Description:  Full version of standard GNU sha1sum utility.
+
+Package: coreutils-sha224sum
+Version: 8.32-6
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-sha224sum
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 25838
+Filename: coreutils-sha224sum_8.32-6_mips_24kc.ipk
+Size: 26593
+SHA256sum: 8625dbde464a697f95f0eb54a6f2ac07362c3510899778755cd5aa4e7645195f
+Description:  Full version of standard GNU sha224sum utility.
+
+Package: coreutils-sha256sum
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/sha256sum:/usr/libexec/sha256sum-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-sha256sum
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 25853
+Filename: coreutils-sha256sum_8.32-6_mips_24kc.ipk
+Size: 26653
+SHA256sum: d5e298fdb0fea068002bb29c26fe1e29c765ad54387d10718d6030739f6022a0
+Description:  Full version of standard GNU sha256sum utility.
+
+Package: coreutils-sha384sum
+Version: 8.32-6
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-sha384sum
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 35212
+Filename: coreutils-sha384sum_8.32-6_mips_24kc.ipk
+Size: 35891
+SHA256sum: f96914157dd3b38cec000610d9f0e7f703ea5a380f297ee5e10977b6950f98bc
+Description:  Full version of standard GNU sha384sum utility.
+
+Package: coreutils-sha512sum
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/sha512sum:/usr/libexec/sha512sum-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-sha512sum
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 35228
+Filename: coreutils-sha512sum_8.32-6_mips_24kc.ipk
+Size: 35936
+SHA256sum: becb0791bb40f2649f65c002fbacdd27c5536ef7272bde16a0c6391227778cea
+Description:  Full version of standard GNU sha512sum utility.
+
+Package: coreutils-shred
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/shred:/usr/libexec/shred-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-shred
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 25209
+Filename: coreutils-shred_8.32-6_mips_24kc.ipk
+Size: 25882
+SHA256sum: 6e34ae6dff6798f5dd5017d36cc6b37f60c2b692cd125a05a08fb997e36ce5d3
+Description:  Full version of standard GNU shred utility.
+
+Package: coreutils-shuf
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/shuf:/usr/libexec/shuf-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-shuf
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 22985
+Filename: coreutils-shuf_8.32-6_mips_24kc.ipk
+Size: 23656
+SHA256sum: ca4d299673fddeb533c52bc7d51912dda078abe7f2ccd4d52c68a40bbf1534e4
+Description:  Full version of standard GNU shuf utility.
+
+Package: coreutils-sleep
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/sleep:/usr/libexec/sleep-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-sleep
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 17091
+Filename: coreutils-sleep_8.32-6_mips_24kc.ipk
+Size: 17896
+SHA256sum: 13a9c720bceff0d3f4f2c39c262a75f795da83b52ec2b409eb24fd838ec61555
+Description:  Full version of standard GNU sleep utility.
+
+Package: coreutils-sort
+Version: 8.32-6
+Depends: libc, coreutils, libpthread
+Alternatives: 300:/usr/bin/sort:/usr/libexec/sort-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-sort
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 43362
+Filename: coreutils-sort_8.32-6_mips_24kc.ipk
+Size: 43984
+SHA256sum: dae8e3328911c7a19123361d98bff04ee0575c1ff33e3126a96c2c22dbc18442
+Description:  Full version of standard GNU sort utility.
+
+Package: coreutils-split
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/split:/usr/libexec/split-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-split
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 24351
+Filename: coreutils-split_8.32-6_mips_24kc.ipk
+Size: 25087
+SHA256sum: 254e0aebe0cb9923a74de2f74c6b33d86fdc4a8af7a47e20f06b0158a7262e8b
+Description:  Full version of standard GNU split utility.
+
+Package: coreutils-stat
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/stat:/usr/libexec/stat-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-stat
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 35598
+Filename: coreutils-stat_8.32-6_mips_24kc.ipk
+Size: 36283
+SHA256sum: 6885c088dcc02fd7bbf12be40522ee7d6a12a9b1e7783ac0504a51fc12e9daba
+Description:  Full version of standard GNU stat utility.
+
+Package: coreutils-stdbuf
+Version: 8.32-6
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-stdbuf
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 19076
+Filename: coreutils-stdbuf_8.32-6_mips_24kc.ipk
+Size: 19833
+SHA256sum: 6382c41265b3de5f11230e50e4d1d045a77d31d11b3febe98239cb4b6e82afe9
+Description:  Full version of standard GNU stdbuf utility.
+
+Package: coreutils-stty
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/stty:/usr/libexec/stty-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-stty
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 24472
+Filename: coreutils-stty_8.32-6_mips_24kc.ipk
+Size: 25269
+SHA256sum: d3d1851f9871aa694ace054775ae5c0434f628d39f8b13e45d9897ab00ebf687
+Description:  Full version of standard GNU stty utility.
+
+Package: coreutils-sum
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/sum:/usr/libexec/sum-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-sum
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 18575
+Filename: coreutils-sum_8.32-6_mips_24kc.ipk
+Size: 19357
+SHA256sum: 1a1a6c6a611146675e88952eee1c0799c2fcce9854c26d90d99fa3ec49294c92
+Description:  Full version of standard GNU sum utility.
+
+Package: coreutils-sync
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/sync:/usr/libexec/sync-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-sync
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 15484
+Filename: coreutils-sync_8.32-6_mips_24kc.ipk
+Size: 16235
+SHA256sum: 52b356881f23edc079a58daab224853dade0abb3190e6020a8224bcb58d25395
+Description:  Full version of standard GNU sync utility.
+
+Package: coreutils-tac
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/tac:/usr/libexec/tac-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-tac
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 40185
+Filename: coreutils-tac_8.32-6_mips_24kc.ipk
+Size: 41021
+SHA256sum: 2d492f16f2cb5d6b51a3dd1ddca1126536e01c3f436274b73291d3df100d8bd5
+Description:  Full version of standard GNU tac utility.
+
+Package: coreutils-tail
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/tail:/usr/libexec/tail-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-tail
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 30498
+Filename: coreutils-tail_8.32-6_mips_24kc.ipk
+Size: 31230
+SHA256sum: 85396ac4aa5d77a9fbdf55d870f8528e0b6856f0227b9faa155edf03a5c24ed2
+Description:  Full version of standard GNU tail utility.
+
+Package: coreutils-tee
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/tee:/usr/libexec/tee-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-tee
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 16534
+Filename: coreutils-tee_8.32-6_mips_24kc.ipk
+Size: 17349
+SHA256sum: 27437768a8e3c6ed40d3fe42b9121657166240340fa18d32323f62ba84856ce7
+Description:  Full version of standard GNU tee utility.
+
+Package: coreutils-test
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/test:/usr/libexec/test-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-test
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 16547
+Filename: coreutils-test_8.32-6_mips_24kc.ipk
+Size: 17371
+SHA256sum: a10119041b56d6c08571ffd4af459c5d424c42d140200aa90bcc49853609b11f
+Description:  Full version of standard GNU test utility.
+
+Package: coreutils-timeout
+Version: 8.32-6
+Depends: libc, coreutils, librt
+Alternatives: 300:/usr/bin/timeout:/usr/libexec/timeout-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-timeout
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 19491
+Filename: coreutils-timeout_8.32-6_mips_24kc.ipk
+Size: 20258
+SHA256sum: f44b73456deb44f71a43d58776b0bd3b96cd99655aa9cdc359f41675867eea2a
+Description:  Full version of standard GNU timeout utility.
+
+Package: coreutils-touch
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/touch:/usr/libexec/touch-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-touch
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 35161
+Filename: coreutils-touch_8.32-6_mips_24kc.ipk
+Size: 36001
+SHA256sum: 21d6f90e7abe113dc0f999d2860904d0021c5829dd4dfc9bae3e3c9466945243
+Description:  Full version of standard GNU touch utility.
+
+Package: coreutils-tr
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/tr:/usr/libexec/tr-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-tr
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 20639
+Filename: coreutils-tr_8.32-6_mips_24kc.ipk
+Size: 21438
+SHA256sum: d0c51ac20be76a90a2af13e3022706b7edfe4a644decf1b401f6cfe9d1e61e5a
+Description:  Full version of standard GNU tr utility.
+
+Package: coreutils-true
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/true:/usr/libexec/true-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-true
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 13111
+Filename: coreutils-true_8.32-6_mips_24kc.ipk
+Size: 13926
+SHA256sum: 20994738acb8928c0fc1d0619857192b34c69562d6c8d80522340ee36474326b
+Description:  Full version of standard GNU true utility.
+
+Package: coreutils-truncate
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/truncate:/usr/libexec/truncate-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-truncate
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 17440
+Filename: coreutils-truncate_8.32-6_mips_24kc.ipk
+Size: 18254
+SHA256sum: 8facdd0a562f9e89a4222d3070856a8faf8b1e6ce8547723103bcc69a0c28e88
+Description:  Full version of standard GNU truncate utility.
+
+Package: coreutils-tsort
+Version: 8.32-6
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-tsort
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 16532
+Filename: coreutils-tsort_8.32-6_mips_24kc.ipk
+Size: 17312
+SHA256sum: 4d3d14473a64c524b7dc7020ad9b3011f595cc865302f658ecb23710cc448170
+Description:  Full version of standard GNU tsort utility.
+
+Package: coreutils-tty
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/tty:/usr/libexec/tty-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-tty
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 14882
+Filename: coreutils-tty_8.32-6_mips_24kc.ipk
+Size: 15644
+SHA256sum: 93453d5e6950678e5f54a2bdc2337fb1a8f9f3a4ef784d1cfb2a7fbbe2bfe830
+Description:  Full version of standard GNU tty utility.
+
+Package: coreutils-uname
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/uname:/usr/libexec/uname-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-uname
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 15504
+Filename: coreutils-uname_8.32-6_mips_24kc.ipk
+Size: 16269
+SHA256sum: c3a8bc1f982780109bffe035f52769522d80f9e970077877733fd2591ccfe327
+Description:  Full version of standard GNU uname utility.
+
+Package: coreutils-unexpand
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/unexpand:/usr/libexec/unexpand-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-unexpand
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 17196
+Filename: coreutils-unexpand_8.32-6_mips_24kc.ipk
+Size: 18021
+SHA256sum: 20e879f2b4699037edb230862bc3603915c2173af55d667072c0d982a4a359a0
+Description:  Full version of standard GNU unexpand utility.
+
+Package: coreutils-uniq
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/uniq:/usr/libexec/uniq-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-uniq
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 18750
+Filename: coreutils-uniq_8.32-6_mips_24kc.ipk
+Size: 19567
+SHA256sum: 77de8abddbe128ff67e8f89f1fd288d588e95bce1fc32aa7c0c4cd862d2d5d17
+Description:  Full version of standard GNU uniq utility.
+
+Package: coreutils-unlink
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/unlink:/usr/libexec/unlink-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-unlink
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 14925
+Filename: coreutils-unlink_8.32-6_mips_24kc.ipk
+Size: 15693
+SHA256sum: ada198aba4fd84db805a50a477d41f0618a5ac865c3ffaf87215ebf9b1b8847e
+Description:  Full version of standard GNU unlink utility.
+
+Package: coreutils-uptime
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/uptime:/usr/libexec/uptime-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-uptime
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 20732
+Filename: coreutils-uptime_8.32-6_mips_24kc.ipk
+Size: 21533
+SHA256sum: 56d992292411101340718fb42785a0f24d6b40179fbbd7db8286b606e174eaab
+Description:  Full version of standard GNU uptime utility.
+
+Package: coreutils-users
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/users:/usr/libexec/users-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-users
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 15485
+Filename: coreutils-users_8.32-6_mips_24kc.ipk
+Size: 16242
+SHA256sum: 168f3a19539ae9f046d438d3582c2581c14b917a79e0e6f7e799781b4b044953
+Description:  Full version of standard GNU users utility.
+
+Package: coreutils-vdir
+Version: 8.32-6
+Depends: libc, coreutils, libacl, libcap
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-vdir
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 52612
+Filename: coreutils-vdir_8.32-6_mips_24kc.ipk
+Size: 53283
+SHA256sum: 2bfe6212962ffdaedc8683d05bd735758cff45982681fd1d78a8ca1db9821dfa
+Description:  Full version of standard GNU vdir utility.
+
+Package: coreutils-wc
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/wc:/usr/libexec/wc-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-wc
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 20280
+Filename: coreutils-wc_8.32-6_mips_24kc.ipk
+Size: 21071
+SHA256sum: 0c3f810a2ccad4166e6896cc47681d8caba3cfe37e337877c2252fcd519f4bf4
+Description:  Full version of standard GNU wc utility.
+
+Package: coreutils-who
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/who:/usr/libexec/who-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-who
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 18342
+Filename: coreutils-who_8.32-6_mips_24kc.ipk
+Size: 19113
+SHA256sum: 104617235e3a36f4f7619be80fc376a61471b2741fb9450a6d4a450676734c70
+Description:  Full version of standard GNU who utility.
+
+Package: coreutils-whoami
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/whoami:/usr/libexec/whoami-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-whoami
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 14970
+Filename: coreutils-whoami_8.32-6_mips_24kc.ipk
+Size: 15733
+SHA256sum: 1d52a584c06ee01a0c1ec264bf0c5008b62a358d622e332ed744e41e9bf94835
+Description:  Full version of standard GNU whoami utility.
+
+Package: coreutils-yes
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/yes:/usr/libexec/yes-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-yes
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 15182
+Filename: coreutils-yes_8.32-6_mips_24kc.ipk
+Size: 15949
+SHA256sum: 70caaf2e9d73df4ff7a004795d6a9899d40db66cde721c735044d9cb7514a93d
+Description:  Full version of standard GNU yes utility.
+
+Package: coreutils
+Version: 8.32-6
+Depends: libc
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mips_24kc
+Installed-Size: 97
+Filename: coreutils_8.32-6_mips_24kc.ipk
+Size: 969
+SHA256sum: 5719fd6351373334cbff56053a0e65e4c3d5980e62cb924bb8591a4f6274cfac
+Description:  Full versions of standard GNU utilities. If an equivalent Busybox applet is
+ available, you should consider compiling that instead as Busybox applets are
+ usually smaller, at the expense of reduced functionality.
+
+Package: curl
+Version: 7.77.0-1
+Depends: libc, libcurl4
+Source: feeds/packages/net/curl
+SourceName: curl
+License: MIT
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:haxx:libcurl
+Maintainer: Imre Kaloz <kaloz@openwrt.org>
+Architecture: mips_24kc
+Installed-Size: 55048
+Filename: curl_7.77.0-1_mips_24kc.ipk
+Size: 55786
+SHA256sum: 2611136d83fb4c5316a305894523bb78f5b6786a75e6db482e4adf7470f43156
+Description:  A client-side URL transfer utility
+
+Package: icu-data-tools
+Version: 69.1-1
+Depends: libc, icu69
+Source: feeds/packages/libs/icu
+SourceName: icu-data-tools
+License: ICU
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:icu-project:international_components_for_unicode
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 138154
+Filename: icu-data-tools_69.1-1_mips_24kc.ipk
+Size: 138119
+SHA256sum: 74961381e183b1d10d6490d457c0844253c821b4a659b6a999d06e2c7f330ca0
+Description:  This package provides tools for manipulating ICU data.
+
+Package: icu-full-data69
+Version: 69.1-1
+Depends: libc, icu69
+Provides: icu-full-data
+Source: feeds/packages/libs/icu
+SourceName: icu-full-data
+License: ICU
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1625626742
+ABIVersion: 69
+CPE-ID: cpe:/a:icu-project:international_components_for_unicode
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 11448490
+Filename: icu-full-data69_69.1-1_mips_24kc.ipk
+Size: 11296980
+SHA256sum: 63ef9be8b4cf735d2f52211e2efd50139461640e5acdcafd40c539d3f9064d7b
+Description:  ICU makes use of a wide variety of data tables to provide many of its services. Examples include converter mapping tables, collation rules, transliteration rules, break iterator rules and dictionaries, and other locale data.
+ This package contains the complete data library provided by ICU.
+ A custom data library can be generated at http://apps.icu-project.org/datacustom/
+
+Package: icu69
+Version: 69.1-1
+Depends: libc, libstdcpp6, libpthread
+Provides: icu
+Source: feeds/packages/libs/icu
+SourceName: icu
+License: ICU
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1625626742
+ABIVersion: 69
+CPE-ID: cpe:/a:icu-project:international_components_for_unicode
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 1840896
+Filename: icu69_69.1-1_mips_24kc.ipk
+Size: 1822499
+SHA256sum: 142ad75ffaeec6de06611a83c74aa0078493ec97dec690d30f4e2693b092ce39
+Description:  ICU is a mature, widely used set of C/C++ and Java libraries providing Unicode and Globalization support for software applications. ICU is widely portable and gives applications the same results on all platforms and between C/C++ and Java software.
+ This package supports C/C++.
+
+Package: libacl
+Version: 2.3.1-1
+Depends: libc, libattr
+Source: feeds/packages/utils/acl
+SourceName: libacl
+License: LGPL-2.1 GPL-2.0
+LicenseFiles: doc/COPYING doc/COPYING.LGPL
+Section: libs
+SourceDateEpoch: 1625626742
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 10293
+Filename: libacl_2.3.1-1_mips_24kc.ipk
+Size: 11067
+SHA256sum: f2f29ba55d3211f63138ae4fd29316ff695cd5cc6d2fa28f523394839266358b
+Description:  Access control list support
+ This package provides libacl
+
+Package: libattr
+Version: 2.5.1-1
+Depends: libc
+Source: feeds/packages/utils/attr
+SourceName: libattr
+License: LGPL-2.1-or-later
+LicenseFiles: doc/COPYING.LGPL
+Section: libs
+SourceDateEpoch: 1625626742
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 5847
+Filename: libattr_2.5.1-1_mips_24kc.ipk
+Size: 6622
+SHA256sum: 656650e5c5600ddc631aca5504e971d0a0f034350fe43c7010f69da24a3d4ba8
+Description:  Extended attributes support
+ This package provides libattr
+
+Package: libcares
+Version: 1.17.1-1
+Depends: libc
+Source: feeds/packages/libs/c-ares
+SourceName: libcares
+License: MIT
+LicenseFiles: LICENSE.md
+Section: libs
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:c-ares_project:c-ares
+Maintainer: Karl Palsson <karlp@etactica.com>
+Architecture: mips_24kc
+Installed-Size: 30016
+Filename: libcares_1.17.1-1_mips_24kc.ipk
+Size: 30925
+SHA256sum: 285f70081910763d90160cad58b6147160f92d87635ccdde5e0d3348096e72eb
+Description:  c-ares is a C library for asynchronous DNS requests (including name resolves)
+ 
+ C89 compatibility, MIT licensed, builds for and runs on POSIX, Windows,
+ Netware, Android and many more operating systems.
+ 
+
+Package: libcurl4
+Version: 7.77.0-1
+Depends: libc, libwolfssl4.7.0.ba20a816, ca-bundle
+Provides: libcurl
+Source: feeds/packages/net/curl
+SourceName: libcurl
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1625626742
+ABIVersion: 4
+CPE-ID: cpe:/a:haxx:libcurl
+Maintainer: Imre Kaloz <kaloz@openwrt.org>
+Architecture: mips_24kc
+Installed-Size: 135343
+Filename: libcurl4_7.77.0-1_mips_24kc.ipk
+Size: 135722
+SHA256sum: 1ae9b0c6e7013ba845ec0f3b111a1fb2723fb2de10c529ffc0b09b85ac2ef7ee
+Description:  A client-side URL transfer library
+
+Package: libdb47
+Version: 4.7.25.4.NC-7
+Depends: libc
+Provides: libdb47-full
+Source: feeds/packages/libs/db47
+SourceName: libdb47
+License: Sleepycat
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1625626742
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: mips_24kc
+Installed-Size: 463595
+Filename: libdb47_4.7.25.4.NC-7_mips_24kc.ipk
+Size: 464301
+SHA256sum: 22091c8815b823745c486c8fe05d84f94feb219c5a72d1a6b2a2f67d6504a14e
+Description:  Berkeley DB library (4.7).
+
+Package: libdb47xx
+Version: 4.7.25.4.NC-7
+Depends: libc, libdb47, libstdcpp6
+Provides: libdb47xx-full
+Source: feeds/packages/libs/db47
+SourceName: libdb47xx
+License: Sleepycat
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1625626742
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: mips_24kc
+Installed-Size: 495326
+Filename: libdb47xx_4.7.25.4.NC-7_mips_24kc.ipk
+Size: 495829
+SHA256sum: 3224d27f9d2d0bace1f5bac9a574978ae49c67d420355dfb3be3a98aa0ad8389
+Description:  Berkeley DB library (4.7).  C++ wrapper.
+
+Package: libedit
+Version: 20210522-3.1-1
+Depends: libc, libncurses6
+Source: feeds/packages/libs/libedit
+SourceName: libedit
+License: BSD-3-Clause
+Section: libs
+SourceDateEpoch: 1625626742
+Maintainer: Daniel Salzman <daniel.salzman@nic.cz>
+Architecture: mips_24kc
+Installed-Size: 62852
+Filename: libedit_20210522-3.1-1_mips_24kc.ipk
+Size: 63247
+SHA256sum: 884bf593db6985d542df0daa2dd07a521dd6732db8e2e25d7026bd27aa72725c
+Description:  Generic line editing, history, and tokenization functions similar to GNU Readline.
+
+Package: libev
+Version: 4.31-1
+Depends: libc
+Source: feeds/packages/libs/libev
+SourceName: libev
+License: BSD-2-Clause
+Section: libs
+SourceDateEpoch: 1625626742
+Maintainer: Karl Palsson <karlp@tweak.net.au>
+Architecture: mips_24kc
+Installed-Size: 25289
+Filename: libev_4.31-1_mips_24kc.ipk
+Size: 26015
+SHA256sum: c71fc9fc78555ad5fea92449d08824f637d9eeb698924fb05bbb7c8dd6b2d5ad
+Description:  A full-featured and high-performance event loop that is loosely modelled after
+ libevent, but without its limitations and bugs.
+
+Package: libffi
+Version: 3.3-2
+Depends: libc
+Source: feeds/packages/libs/libffi
+SourceName: libffi
+License: MIT
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1625626742
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: mips_24kc
+Installed-Size: 13533
+Filename: libffi_3.3-2_mips_24kc.ipk
+Size: 14514
+SHA256sum: a44df39270673cdaa3e85cff91ea5d65cd6dc554ae293580d5c15e259a080d48
+Description:  The libffi library provides a portable, high level programming interface to
+ various calling conventions. This allows a programmer to call any function
+ specified by a call interface description at run-time.
+ 
+ FFI stands for Foreign Function Interface. A foreign function interface is the
+ popular name for the interface that allows code written in one language to call
+ code written in another language. The libffi library really only provides the
+ lowest, machine dependent layer of a fully featured foreign function interface.
+ A layer must exist above libffi that handles type conversions for values passed
+ between the two languages.
+
+Package: libgdbm
+Version: 1.19-1
+Depends: libc
+Source: feeds/packages/libs/gdbm
+SourceName: libgdbm
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1625626742
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: mips_24kc
+Installed-Size: 19521
+Filename: libgdbm_1.19-1_mips_24kc.ipk
+Size: 20317
+SHA256sum: c635da8af843b9abbee38b61a8b5940a3802872994fec665f62dbed5668df0fe
+Description:  GNU database manager library
+ GNU dbm is a set of database routines that use extendible hashing and
+ works similar to the standard UNIX dbm routines.
+
+Package: liblzma
+Version: 5.2.5-3
+Depends: libc, libpthread
+Source: feeds/packages/utils/xz
+SourceName: liblzma
+License: Public-Domain LGPL-2.1-or-later GPL-2.0-or-later GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:tukaani:xz
+Architecture: mips_24kc
+Installed-Size: 49081
+Filename: liblzma_5.2.5-3_mips_24kc.ipk
+Size: 49955
+SHA256sum: 61a633dcb20346ea67bdf10ee9a63b39ed9928381a863dfe58b9caff8b1d6e48
+Description:  liblzma library from XZ Utils
+
+Package: libmaxminddb
+Version: 1.6.0-1
+Depends: libc
+Source: feeds/packages/libs/libmaxminddb
+SourceName: libmaxminddb
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1625626742
+Maintainer: Jan Pavlinec <jan.pavlinec@nic.cz>
+Architecture: mips_24kc
+Installed-Size: 12818
+Filename: libmaxminddb_1.6.0-1_mips_24kc.ipk
+Size: 13609
+SHA256sum: 4fc7a09603a49b73187eacf5dbbe7c79145eca2c51f4547efda679271777a945
+Description:  The libmaxminddb library provides functions for working MaxMind DB files.
+
+Package: libminiupnpc
+Version: 2.2.2-1
+Depends: libc
+Source: feeds/packages/net/miniupnpc
+SourceName: libminiupnpc
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:miniupnp_project:miniupnp
+Architecture: mips_24kc
+Installed-Size: 18679
+Filename: libminiupnpc_2.2.2-1_mips_24kc.ipk
+Size: 19448
+SHA256sum: 873b99dfb70232107bb2ba7bdd74d3beb408a80805adc125f480c68911a7b1f1
+Description:  Lightweight UPnP library
+
+Package: libnatpmp1
+Version: 20150609-3
+Depends: libc
+Provides: libnatpmp
+Source: feeds/packages/libs/libnatpmp
+SourceName: libnatpmp
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1625626742
+ABIVersion: 1
+Architecture: mips_24kc
+Installed-Size: 3139
+Filename: libnatpmp1_20150609-3_mips_24kc.ipk
+Size: 4026
+SHA256sum: 2be9227d0852e84afe4bb30bd835b5b44edcfb60b8e8b09131e6b870dd6eafc1
+Description:  libnatpmp is an attempt to make a portable and fully compliant implementation
+ of the protocol for the client side. It is based on non blocking sockets and
+ all calls of the API are asynchronous. It is therefore very easy to integrate
+ the NAT-PMP code to any event driven code.
+ This package contains the shared library.
+
+Package: libpython3-3.9
+Version: 3.9.6-1
+Depends: libc, libpthread, zlib
+Provides: libpython3
+Source: feeds/packages/lang/python/python3
+SourceName: libpython3
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1625626742
+ABIVersion: -3.9
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 1050643
+Filename: libpython3-3.9_3.9.6-1_mips_24kc.ipk
+Size: 1046493
+SHA256sum: 3c88f921e62c8e1e5593ef319fd8d1f1c28711cd01a2a09cd187fae5c49a713a
+Description:  This package contains only core Python library.
+
+Package: libsodium
+Version: 1.0.18-3
+Depends: libc
+Source: feeds/packages/libs/libsodium
+SourceName: libsodium
+License: ISC
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1625626742
+Maintainer: Damiano Renfer <damiano.renfer@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 143860
+Filename: libsodium_1.0.18-3_mips_24kc.ipk
+Size: 145001
+SHA256sum: ffa1d500de31afabfb963444b3c1d12b67ad149a7f3bf79bf27ab8de8c0c129d
+Description:  NaCl (pronounced "salt") is a new easy-to-use high-speed software library for network communication, encryption, decryption, signatures, etc.
+ NaCl's goal is to provide all of the core operations needed to build higher-level cryptographic tools.
+ Sodium is a portable, cross-compilable, installable, packageable fork of NaCl (based on the latest released upstream version nacl-20110221), with a compatible API.
+ The design choices, particularly in regard to the Curve25519 Diffie-Hellman function, emphasize security (whereas NIST curves emphasize "performance" at the cost of security), and "magic constants" in NaCl/Sodium have clear rationales.
+ The same cannot be said of NIST curves, where the specific origins of certain constants are not described by the standards.
+ And despite the emphasis on higher security, primitives are faster across-the-board than most implementations of the NIST standards.
+
+Package: libsqlite3-0
+Version: 3330000-2
+Depends: libc, libpthread, zlib
+Provides: libsqlite3
+Source: feeds/packages/libs/sqlite3
+SourceName: libsqlite3
+License: PUBLICDOMAIN
+Section: libs
+SourceDateEpoch: 1625626742
+ABIVersion: -0
+CPE-ID: cpe:/a:sqlite:sqlite
+Architecture: mips_24kc
+Installed-Size: 469885
+Filename: libsqlite3-0_3330000-2_mips_24kc.ipk
+Size: 470309
+SHA256sum: a2c73c3662c136c1f637eb621e5ebd084f861dc5d332489143ee54f22ce4692d
+Description:  SQLite is a small C library that implements a self-contained, embeddable,
+ zero-configuration SQL database engine.
+ This package contains the SQLite (v3.x) shared library, used by other
+ programs.
+
+Package: libudns
+Version: 0.4-1
+Depends: libc
+Source: feeds/packages/libs/udns
+SourceName: libudns
+License: LGPL-2.1
+Section: libs
+SourceDateEpoch: 1625626742
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 16042
+Filename: libudns_0.4-1_mips_24kc.ipk
+Size: 16752
+SHA256sum: f7a1598b6716f9191142165fe5e7451766a327609b3d3c860331757dc4a3353c
+Description:  UDNS is a stub DNS resolver library with ability to perform both syncronous
+ and asyncronous DNS queries.
+
+Package: libxml2-dev
+Version: 2.9.12-1
+Depends: libc, libxml2
+Source: feeds/packages/libs/libxml2
+SourceName: libxml2-dev
+License: MIT
+LicenseFiles: COPYING
+Section: devel
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:xmlsoft:libxml2
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: mips_24kc
+Installed-Size: 86480
+Filename: libxml2-dev_2.9.12-1_mips_24kc.ipk
+Size: 87388
+SHA256sum: da692b126380dd18e693b93af4d63c4a25050045ddd69a2a274fce7cc89e0086
+Description:  A library for manipulating XML and HTML resources.
+ 
+ This package contains the headers and xml2-config binary.
+
+Package: libxml2-utils
+Version: 2.9.12-1
+Depends: libc, libxml2
+Source: feeds/packages/libs/libxml2
+SourceName: libxml2-utils
+License: MIT
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:xmlsoft:libxml2
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: mips_24kc
+Installed-Size: 20553
+Filename: libxml2-utils_2.9.12-1_mips_24kc.ipk
+Size: 21218
+SHA256sum: b2e48c6efe445396332594b16d6834d9384d39c7b70feb05baa398b93601ec90
+Description:  This package contains the binaries xmllint and xmlcatalog
+ from libxml2, a library for manipulating XML and HTML resources.
+
+Package: libxml2
+Version: 2.9.12-1
+Depends: libc, libpthread, zlib
+Source: feeds/packages/libs/libxml2
+SourceName: libxml2
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:xmlsoft:libxml2
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: mips_24kc
+Installed-Size: 433630
+Filename: libxml2_2.9.12-1_mips_24kc.ipk
+Size: 430823
+SHA256sum: 7ad0710ee58d3cb01263eaa78f30c5dc33bbd31aac559731a7f34980430062c7
+Description:  A library for manipulating XML and HTML resources.
+
+Package: libzstd
+Version: 1.4.9-1
+Depends: libc
+Source: feeds/packages/utils/zstd
+SourceName: libzstd
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1625626742
+Architecture: mips_24kc
+Installed-Size: 348575
+Filename: libzstd_1.4.9-1_mips_24kc.ipk
+Size: 349417
+SHA256sum: 4a6dbe011a14564f96fbc9cc8b49052f0b84dc7cea8001843c3ec1fbae2bc688
+Description:  Zstandard - Fast real-time compression algorithm.
+ This package provides libzstd library.
+
+Package: luasocket5.3
+Version: 2019-04-21-733af884-1
+Depends: libc, liblua5.3-5.3
+Source: feeds/packages/lang/luasocket
+SourceName: luasocket5.3
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1625626742
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: mips_24kc
+Installed-Size: 38048
+Filename: luasocket5.3_2019-04-21-733af884-1_mips_24kc.ipk
+Size: 38681
+SHA256sum: f82c060eb8cc9d2b8360e4cfede92da9b2d4c47bf57548640af0fafb69d9d61e
+Description:  LuaSocket is the most comprehensive networking support
+ library for the Lua language. It provides easy access to
+ TCP, UDP, DNS, SMTP, FTP, HTTP, MIME and much more.
+
+Package: luasocket
+Version: 2019-04-21-733af884-1
+Depends: libc, lua
+Source: feeds/packages/lang/luasocket
+SourceName: luasocket
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1625626742
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: mips_24kc
+Installed-Size: 52861
+Filename: luasocket_2019-04-21-733af884-1_mips_24kc.ipk
+Size: 53464
+SHA256sum: c85a35ac17f232f654952aa123f28a23e9350ef5faaf9d9b3476e88acabfda6a
+Description:  LuaSocket is the most comprehensive networking support
+ library for the Lua language. It provides easy access to
+ TCP, UDP, DNS, SMTP, FTP, HTTP, MIME and much more.
+
+Package: lzmadec
+Version: 5.2.5-3
+Depends: libc, xz-utils, liblzma
+Source: feeds/packages/utils/xz
+SourceName: lzmadec
+License: Public-Domain LGPL-2.1-or-later GPL-2.0-or-later GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:tukaani:xz
+Architecture: mips_24kc
+Installed-Size: 3105
+Filename: lzmadec_5.2.5-3_mips_24kc.ipk
+Size: 3843
+SHA256sum: 1e00e92633eea2df170914da9dff1f47e1dcff63a56e2fb9027d57e5e2af4db7
+Description:  Contains: lzmadec 
+
+Package: lzmainfo
+Version: 5.2.5-3
+Depends: libc, xz-utils, liblzma
+Source: feeds/packages/utils/xz
+SourceName: lzmainfo
+License: Public-Domain LGPL-2.1-or-later GPL-2.0-or-later GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:tukaani:xz
+Architecture: mips_24kc
+Installed-Size: 2936
+Filename: lzmainfo_5.2.5-3_mips_24kc.ipk
+Size: 3679
+SHA256sum: fd2b8da570f569dc3953e297df06888431e76de16b23c9f3296b8ce80a989da7
+Description:  Contains: lzmainfo 
+
+Package: miniupnpc
+Version: 2.2.2-1
+Depends: libc, libminiupnpc
+Source: feeds/packages/net/miniupnpc
+SourceName: miniupnpc
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:miniupnp_project:miniupnp
+Architecture: mips_24kc
+Installed-Size: 9120
+Filename: miniupnpc_2.2.2-1_mips_24kc.ipk
+Size: 9877
+SHA256sum: f69d82443be3c3a8d0a7d48c32b6b333c8199bf074cb96e5eccf9fb3ff537cb3
+Description:  Lightweight UPnP client
+
+Package: natpmpc
+Version: 20150609-3
+Depends: libc, libnatpmp1
+Source: feeds/packages/libs/libnatpmp
+SourceName: natpmpc
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1625626742
+Architecture: mips_24kc
+Installed-Size: 3174
+Filename: natpmpc_20150609-3_mips_24kc.ipk
+Size: 4043
+SHA256sum: a0e417204265547306cae32dcfed86cf38a659d632ca207f657bfc5e5bb2b1ba
+Description:  libnatpmp is an attempt to make a portable and fully compliant implementation
+ of the protocol for the client side. It is based on non blocking sockets and
+ all calls of the API are asynchronous. It is therefore very easy to integrate
+ the NAT-PMP code to any event driven code.
+ This package contains the natpmp client.
+
+Package: python-pip-conf
+Version: 0.1-1
+Depends: libc
+Source: feeds/packages/lang/python/python-pip-conf
+SourceName: python-pip-conf
+Section: lang
+SourceDateEpoch: 1625626742
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 202
+Filename: python-pip-conf_0.1-1_mips_24kc.ipk
+Size: 928
+SHA256sum: 401f2f2ae9671879484283c8f9eff2fade883c6c80e22a0dae65a63ea2b7c8ca
+Description:  Configuration file for pip/pip3
+
+Package: python3-asyncio-src
+Version: 3.9.6-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-asyncio-src
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 102583
+Filename: python3-asyncio-src_3.9.6-1_mips_24kc.ipk
+Size: 103568
+SHA256sum: 4f7a6fb0e9f80226b866a7970578c68ab9fe14d8061c820488a88c3aa8f99585
+Description:  Python 3.9 asyncio module
+ 
+ This package contains the Python source files for python3-asyncio.
+
+Package: python3-asyncio
+Version: 3.9.6-1
+Depends: libc, python3-light
+Source: feeds/packages/lang/python/python3
+SourceName: python3-asyncio
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 144195
+Filename: python3-asyncio_3.9.6-1_mips_24kc.ipk
+Size: 145174
+SHA256sum: 6daf7bfe1f1968d0af5d7148712b05d8f01a11ddab2de295b066f98bab48d9e8
+Description:  Python 3.9 asyncio module
+
+Package: python3-base-src
+Version: 3.9.6-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-base-src
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 258162
+Filename: python3-base-src_3.9.6-1_mips_24kc.ipk
+Size: 249046
+SHA256sum: c94f9f932e1db118d4f36d5b3a13792de0da37b2a948052b2671398f72d3d98d
+Description:  This package contains only the interpreter and the bare minimum
+ for the interpreter to start.
+ 
+ This package contains the Python source files for python3-base.
+
+Package: python3-base
+Version: 3.9.6-1
+Depends: libc, libpthread, zlib, libpython3-3.9
+Source: feeds/packages/lang/python/python3
+SourceName: python3-base
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 136922
+Filename: python3-base_3.9.6-1_mips_24kc.ipk
+Size: 137028
+SHA256sum: 9c570b986332f99c8ce28f0ccb222c31addab4dfff095e00f0c79ffbd10cbb2c
+Description:  This package contains only the interpreter and the bare minimum
+ for the interpreter to start.
+
+Package: python3-cgi-src
+Version: 3.9.6-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-cgi-src
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 9577
+Filename: python3-cgi-src_3.9.6-1_mips_24kc.ipk
+Size: 10472
+SHA256sum: e97b9f932e702012677b3766d71e3e182a350db692f8bbcb15465079d800d2b2
+Description:  Python 3.9 cgi module
+ 
+ This package contains the Python source files for python3-cgi.
+
+Package: python3-cgi
+Version: 3.9.6-1
+Depends: libc, python3-light, python3-email
+Source: feeds/packages/lang/python/python3
+SourceName: python3-cgi
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 12067
+Filename: python3-cgi_3.9.6-1_mips_24kc.ipk
+Size: 12954
+SHA256sum: 4626aaa5febbeb977ffba6b419ec4ece02f91b680cce608e4c6ff1d7aa696ef0
+Description:  Python 3.9 cgi module
+
+Package: python3-cgitb-src
+Version: 3.9.6-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-cgitb-src
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 3709
+Filename: python3-cgitb-src_3.9.6-1_mips_24kc.ipk
+Size: 4575
+SHA256sum: 40d38d9534c17eb3400e9ed574c0fe5d34e0b144d901a98b8a589387f6fdd94e
+Description:  Python 3.9 cgitb module
+ 
+ This package contains the Python source files for python3-cgitb.
+
+Package: python3-cgitb
+Version: 3.9.6-1
+Depends: libc, python3-light, python3-cgi, python3-pydoc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-cgitb
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 5509
+Filename: python3-cgitb_3.9.6-1_mips_24kc.ipk
+Size: 6359
+SHA256sum: 2d9778a44c8370781833202b7b69516a80100c509d01bb296884f53173ddc417
+Description:  Python 3.9 cgitb module
+
+Package: python3-codecs-src
+Version: 3.9.6-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-codecs-src
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 97
+Filename: python3-codecs-src_3.9.6-1_mips_24kc.ipk
+Size: 979
+SHA256sum: 6c7bc59dbc0deccf7591d929c503d136e9b85692c6bb484fe27f3c178f863e03
+Description:  Python 3.9 codecs + unicode support
+ 
+ This package contains the Python source files for python3-codecs.
+
+Package: python3-codecs
+Version: 3.9.6-1
+Depends: libc, python3-light
+Source: feeds/packages/lang/python/python3
+SourceName: python3-codecs
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 836196
+Filename: python3-codecs_3.9.6-1_mips_24kc.ipk
+Size: 802394
+SHA256sum: 3d692be571081394f48d6c6998a14ce7cb39cb8158b69e82330ec40dd65de03e
+Description:  Python 3.9 codecs + unicode support
+
+Package: python3-ctypes-src
+Version: 3.9.6-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-ctypes-src
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 18026
+Filename: python3-ctypes-src_3.9.6-1_mips_24kc.ipk
+Size: 18926
+SHA256sum: 4ccfd75158b23b353df4bf9a22311b42d712e8104a58fcd28e35f5ad5349a192
+Description:  Python 3.9 ctypes module
+ 
+ This package contains the Python source files for python3-ctypes.
+
+Package: python3-ctypes
+Version: 3.9.6-1
+Depends: libc, python3-light
+Source: feeds/packages/lang/python/python3
+SourceName: python3-ctypes
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 70425
+Filename: python3-ctypes_3.9.6-1_mips_24kc.ipk
+Size: 71245
+SHA256sum: 60f01449bd76e0778f4b80c43ebc821c5fac351d96f7733fbbaba9b3187a57c0
+Description:  Python 3.9 ctypes module
+
+Package: python3-dbm-src
+Version: 3.9.6-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-dbm-src
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 5825
+Filename: python3-dbm-src_3.9.6-1_mips_24kc.ipk
+Size: 6672
+SHA256sum: 5b4f4cf3b5105e60ac258c260b3fff332c4af0f3d092f200b30df860fbc37f33
+Description:  Python 3.9 dbm module
+ 
+ This package contains the Python source files for python3-dbm.
+
+Package: python3-dbm
+Version: 3.9.6-1
+Depends: libc, python3-light, libdb47
+Source: feeds/packages/lang/python/python3
+SourceName: python3-dbm
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 10916
+Filename: python3-dbm_3.9.6-1_mips_24kc.ipk
+Size: 11766
+SHA256sum: 806d6b2a641df7e09a03311c790b66c476590d8c947fe81b0c389aed571bff50
+Description:  Python 3.9 dbm module
+
+Package: python3-decimal-src
+Version: 3.9.6-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-decimal-src
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 281
+Filename: python3-decimal-src_3.9.6-1_mips_24kc.ipk
+Size: 1162
+SHA256sum: 2cc454cb1481601dcdcdadf550cfa13ac6b97bc7667596831d4e49c2d01e75cb
+Description:  Python 3.9 decimal module
+ 
+ This package contains the Python source files for python3-decimal.
+
+Package: python3-decimal
+Version: 3.9.6-1
+Depends: libc, python3-light
+Source: feeds/packages/lang/python/python3
+SourceName: python3-decimal
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 82676
+Filename: python3-decimal_3.9.6-1_mips_24kc.ipk
+Size: 83052
+SHA256sum: 251a43309fbbae3a48b778ef541fed69f311441c83903318104aa9c8c9493168
+Description:  Python 3.9 decimal module
+
+Package: python3-dev-src
+Version: 3.9.6-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-dev-src
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 984
+Filename: python3-dev-src_3.9.6-1_mips_24kc.ipk
+Size: 1867
+SHA256sum: b256ef73f709f61eb7038088a675ad4b9361c886657be6f595b8440d20b66162
+Description:  Python 3.9 development files
+ 
+ This package contains the Python source files for python3-dev.
+
+Package: python3-dev
+Version: 3.9.6-1
+Depends: libc, python3, python3-lib2to3
+Source: feeds/packages/lang/python/python3
+SourceName: python3-dev
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 1993964
+Filename: python3-dev_3.9.6-1_mips_24kc.ipk
+Size: 1986359
+SHA256sum: cc3d7ba938d590adef3b852f8e1e9b6bed3aebeb116d5c1958bd9c824de552fb
+Description:  Python 3.9 development files
+
+Package: python3-distutils-src
+Version: 3.9.6-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-distutils-src
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 168108
+Filename: python3-distutils-src_3.9.6-1_mips_24kc.ipk
+Size: 169087
+SHA256sum: 4467f35e99a0fccdd81341ceb5e254e856567969f6cb283e602f46239ef1ae80
+Description:  Python 3.9 distutils module
+ 
+ This package contains the Python source files for python3-distutils.
+
+Package: python3-distutils
+Version: 3.9.6-1
+Depends: libc, python3-light, python3-email
+Source: feeds/packages/lang/python/python3
+SourceName: python3-distutils
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 175796
+Filename: python3-distutils_3.9.6-1_mips_24kc.ipk
+Size: 176774
+SHA256sum: 105aa81998b51bd77ae94cc67ff2089c5324a88727b581ed4ef625245b166d4c
+Description:  Python 3.9 distutils module
+
+Package: python3-email-src
+Version: 3.9.6-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-email-src
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 93968
+Filename: python3-email-src_3.9.6-1_mips_24kc.ipk
+Size: 94924
+SHA256sum: 67acbb560f60f3126ba01c990511fcaa27e7d158b53d657b5d5068c20700f842
+Description:  Python 3.9 email module
+ 
+ This package contains the Python source files for python3-email.
+
+Package: python3-email
+Version: 3.9.6-1
+Depends: libc, python3-light
+Source: feeds/packages/lang/python/python3
+SourceName: python3-email
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 112967
+Filename: python3-email_3.9.6-1_mips_24kc.ipk
+Size: 113963
+SHA256sum: 8e1c45c4b276cbb521dab69f0814d47af3dae05a553c98baa93b37b2d6c629ad
+Description:  Python 3.9 email module
+
+Package: python3-gdbm-src
+Version: 3.9.6-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-gdbm-src
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 97
+Filename: python3-gdbm-src_3.9.6-1_mips_24kc.ipk
+Size: 972
+SHA256sum: 9706dd0ad93c49327fe8d30e03276e384d3f0a4348e246de65ecdc4e37ccbc47
+Description:  Python 3.9 gdbm module
+ 
+ This package contains the Python source files for python3-gdbm.
+
+Package: python3-gdbm
+Version: 3.9.6-1
+Depends: libc, python3-light, libgdbm
+Source: feeds/packages/lang/python/python3
+SourceName: python3-gdbm
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 6823
+Filename: python3-gdbm_3.9.6-1_mips_24kc.ipk
+Size: 7680
+SHA256sum: 3ddf3a1b39917682c43f470cbe7136571c348f40e95433b6a4161ef461694b18
+Description:  Python 3.9 gdbm module
+
+Package: python3-lib2to3-src
+Version: 3.9.6-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-lib2to3-src
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 74940
+Filename: python3-lib2to3-src_3.9.6-1_mips_24kc.ipk
+Size: 75896
+SHA256sum: 52e89ddb99ea26ab861cd7d553cc3297b42caf1bcccca065b775ec76203813ad
+Description:  Python 3.9 lib2to3 module
+ 
+ This package contains the Python source files for python3-lib2to3.
+
+Package: python3-lib2to3
+Version: 3.9.6-1
+Depends: libc, python3
+Source: feeds/packages/lang/python/python3
+SourceName: python3-lib2to3
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 103197
+Filename: python3-lib2to3_3.9.6-1_mips_24kc.ipk
+Size: 104176
+SHA256sum: 6eb4c0af420990af98b902d1e2f28d5dbf86b098f85daf8e6e15f8df15b5c14d
+Description:  Python 3.9 lib2to3 module
+
+Package: python3-light-src
+Version: 3.9.6-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-light-src
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 1193688
+Filename: python3-light-src_3.9.6-1_mips_24kc.ipk
+Size: 1194604
+SHA256sum: 9a3d3689332c93178cc252a50631c524dac3569124f7924f7a2b22820f09810c
+Description:  This package is essentially the python3-base package plus
+ a few of the rarely used (and big) libraries stripped out
+ into separate packages.
+ 
+ This package contains the Python source files for python3-light.
+
+Package: python3-light
+Version: 3.9.6-1
+Depends: libc, python3-base, libffi, libbz2-1.0, libuuid1
+Source: feeds/packages/lang/python/python3
+SourceName: python3-light
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 1859698
+Filename: python3-light_3.9.6-1_mips_24kc.ipk
+Size: 1859570
+SHA256sum: b139e456eb84af6e031cfe792d1998e10f3b9677b918976fea5522e873312184
+Description:  This package is essentially the python3-base package plus
+ a few of the rarely used (and big) libraries stripped out
+ into separate packages.
+
+Package: python3-logging-src
+Version: 3.9.6-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-logging-src
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 44882
+Filename: python3-logging-src_3.9.6-1_mips_24kc.ipk
+Size: 45860
+SHA256sum: 15ff8b4fc16fab39e3f02aa9dbf3ecc768dde2ad3d44200681bd54f3f32bfee4
+Description:  Python 3.9 logging module
+ 
+ This package contains the Python source files for python3-logging.
+
+Package: python3-logging
+Version: 3.9.6-1
+Depends: libc, python3-light
+Source: feeds/packages/lang/python/python3
+SourceName: python3-logging
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 52125
+Filename: python3-logging_3.9.6-1_mips_24kc.ipk
+Size: 53083
+SHA256sum: 7c3e9d77e9ed8338c3acb27e92a233bd7f1c9b668ac524f085974757b3c9b283
+Description:  Python 3.9 logging module
+
+Package: python3-lzma-src
+Version: 3.9.6-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-lzma-src
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 4203
+Filename: python3-lzma-src_3.9.6-1_mips_24kc.ipk
+Size: 5077
+SHA256sum: 3104539a5db36ed63f89dbaf9e8c3212104789c1c6b0b1f447302d18328166e0
+Description:  Python 3.9 lzma module
+ 
+ This package contains the Python source files for python3-lzma.
+
+Package: python3-lzma
+Version: 3.9.6-1
+Depends: libc, python3-light, liblzma
+Source: feeds/packages/lang/python/python3
+SourceName: python3-lzma
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 15576
+Filename: python3-lzma_3.9.6-1_mips_24kc.ipk
+Size: 16393
+SHA256sum: 7371f429e52ea6b6143b7afea90806b3f9810d864f0da1ca5916131dc6317a2a
+Description:  Python 3.9 lzma module
+
+Package: python3-multiprocessing-src
+Version: 3.9.6-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-multiprocessing-src
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 65052
+Filename: python3-multiprocessing-src_3.9.6-1_mips_24kc.ipk
+Size: 66022
+SHA256sum: 99645d363860d279b6252c705117f93c629285bf63e5f142f4478270a30c3d42
+Description:  Python 3.9 multiprocessing
+ 
+ This package contains the Python source files for python3-multiprocessing.
+
+Package: python3-multiprocessing
+Version: 3.9.6-1
+Depends: libc, python3-light
+Source: feeds/packages/lang/python/python3
+SourceName: python3-multiprocessing
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 99441
+Filename: python3-multiprocessing_3.9.6-1_mips_24kc.ipk
+Size: 100437
+SHA256sum: 0f5e542416643640f529fa4cb0ce44a92a2d18e5396cd35b5d98b8b92bd33bfe
+Description:  Python 3.9 multiprocessing
+
+Package: python3-ncurses-src
+Version: 3.9.6-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-ncurses-src
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 6184
+Filename: python3-ncurses-src_3.9.6-1_mips_24kc.ipk
+Size: 7102
+SHA256sum: a7efb93dfb33c2870ad95c34d28f174841b4223e393cd642a6a6440ee328e311
+Description:  Python 3.9 ncurses module
+ 
+ This package contains the Python source files for python3-ncurses.
+
+Package: python3-ncurses
+Version: 3.9.6-1
+Depends: libc, python3-light, libncursesw6
+Source: feeds/packages/lang/python/python3
+SourceName: python3-ncurses
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 44886
+Filename: python3-ncurses_3.9.6-1_mips_24kc.ipk
+Size: 45247
+SHA256sum: b98a5591d7c88ff2747c2dcb23249b624f869d30a64447155e7c39fe04debc4a
+Description:  Python 3.9 ncurses module
+
+Package: python3-openssl-src
+Version: 3.9.6-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-openssl-src
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 97
+Filename: python3-openssl-src_3.9.6-1_mips_24kc.ipk
+Size: 972
+SHA256sum: 437e77aef6a3a2931dfc7909f1e736c2c5f1eaa66f14fa5068f862213ff8802e
+Description:  Python 3.9 SSL module
+ 
+ This package contains the Python source files for python3-openssl.
+
+Package: python3-openssl
+Version: 3.9.6-1
+Depends: libc, python3-light, libopenssl1.1, ca-certs
+Source: feeds/packages/lang/python/python3
+SourceName: python3-openssl
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 67078
+Filename: python3-openssl_3.9.6-1_mips_24kc.ipk
+Size: 65596
+SHA256sum: 554b138505d7142a6d057aaf73d902297f99e36a4a6fb550dd15f22d4ad53f05
+Description:  Python 3.9 SSL module
+
+Package: python3-pip-src
+Version: 21.1.3-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-pip-src
+License: MIT
+LicenseFiles: LICENSE.txt
+Section: lang
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 1032637
+Filename: python3-pip-src_21.1.3-1_mips_24kc.ipk
+Size: 1026248
+SHA256sum: 3eb36fb6c889f76abf88c00be4ba7d0d34a0ed6fa9922938eb11e38d4eac258c
+Description:  Python 3.9 pip module
+ 
+ This package contains the Python source files for python3-pip.
+
+Package: python3-pip
+Version: 21.1.3-1
+Depends: libc, python3, python3-setuptools, python-pip-conf
+Source: feeds/packages/lang/python/python3
+SourceName: python3-pip
+License: MIT
+LicenseFiles: LICENSE.txt
+Section: lang
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 1392394
+Filename: python3-pip_21.1.3-1_mips_24kc.ipk
+Size: 1391557
+SHA256sum: 0982dd2ad1998770a1bacda20cf7dbb0cdfac14ddbd5ec806e7a46c783a2da50
+Description:  Python 3.9 pip module
+
+Package: python3-pkg-resources-src
+Version: 56.0.0-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-pkg-resources-src
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 112109
+Filename: python3-pkg-resources-src_56.0.0-1_mips_24kc.ipk
+Size: 113025
+SHA256sum: 477e5c0c6ee04db28f34e007d04bde4fc702e79b448d2db8cfe661e9748b6137
+Description:  Python 3.9 pkg_resources module (part of setuptools)
+ 
+ This package contains the Python source files for python3-pkg-resources.
+
+Package: python3-pkg-resources
+Version: 56.0.0-1
+Depends: libc, python3
+Source: feeds/packages/lang/python/python3
+SourceName: python3-pkg-resources
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 146492
+Filename: python3-pkg-resources_56.0.0-1_mips_24kc.ipk
+Size: 147430
+SHA256sum: 4e78ed12a36ca01e45b5b3843b935bf5269104bb790ebc50152b8e0f268aa512
+Description:  Python 3.9 pkg_resources module (part of setuptools)
+
+Package: python3-pydoc-src
+Version: 3.9.6-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-pydoc-src
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 202323
+Filename: python3-pydoc-src_3.9.6-1_mips_24kc.ipk
+Size: 203320
+SHA256sum: dab37d337d9b1e9b3579326d6146e558f3c968da01617a887c72b36dad5629b4
+Description:  Python 3.9 pydoc module
+ 
+ This package contains the Python source files for python3-pydoc.
+
+Package: python3-pydoc
+Version: 3.9.6-1
+Depends: libc, python3-light
+Source: feeds/packages/lang/python/python3
+SourceName: python3-pydoc
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 191400
+Filename: python3-pydoc_3.9.6-1_mips_24kc.ipk
+Size: 192376
+SHA256sum: 507880547331a1f7cb198fe0fe24999ba8d9ad23eccfbdc8f86351c4bfdcb13d
+Description:  Python 3.9 pydoc module
+
+Package: python3-readline-src
+Version: 3.9.6-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-readline-src
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 97
+Filename: python3-readline-src_3.9.6-1_mips_24kc.ipk
+Size: 974
+SHA256sum: eacb1f63f56682c129e80c36c0daef90c98070c9a29e15d1cecac11a5876c9ba
+Description:  Python 3.9 readline module
+ 
+ This package contains the Python source files for python3-readline.
+
+Package: python3-readline
+Version: 3.9.6-1
+Depends: libc, python3-light, libreadline8, libncursesw6
+Source: feeds/packages/lang/python/python3
+SourceName: python3-readline
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 9017
+Filename: python3-readline_3.9.6-1_mips_24kc.ipk
+Size: 9821
+SHA256sum: 001df51b60660b29e9bd1977b64ade6ab8e3610492f9bf92f7982558282ec96f
+Description:  Python 3.9 readline module
+
+Package: python3-setuptools-src
+Version: 56.0.0-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-setuptools-src
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 371224
+Filename: python3-setuptools-src_56.0.0-1_mips_24kc.ipk
+Size: 372171
+SHA256sum: b36dae05f75508cf40153d5df110e31a916c679d3b91cdf3509790611a3ae028
+Description:  Python 3.9 setuptools module
+ 
+ This package contains the Python source files for python3-setuptools.
+
+Package: python3-setuptools
+Version: 56.0.0-1
+Depends: libc, python3, python3-pkg-resources
+Source: feeds/packages/lang/python/python3
+SourceName: python3-setuptools
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 460915
+Filename: python3-setuptools_56.0.0-1_mips_24kc.ipk
+Size: 461881
+SHA256sum: 27a7c05e7b0eb364dd22fce59c82043dc1a6eb564da385011f00274414aa6811
+Description:  Python 3.9 setuptools module
+
+Package: python3-sqlite3-src
+Version: 3.9.6-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-sqlite3-src
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 2554
+Filename: python3-sqlite3-src_3.9.6-1_mips_24kc.ipk
+Size: 3412
+SHA256sum: 196c7a1b46bb452ad476fdea3524ea09d53042e63a09e24ebb3432fbaebaa11e
+Description:  Python 3.9 sqlite3 module
+ 
+ This package contains the Python source files for python3-sqlite3.
+
+Package: python3-sqlite3
+Version: 3.9.6-1
+Depends: libc, python3-light, libsqlite3-0
+Source: feeds/packages/lang/python/python3
+SourceName: python3-sqlite3
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 26219
+Filename: python3-sqlite3_3.9.6-1_mips_24kc.ipk
+Size: 26975
+SHA256sum: f9388ca6a7fb4ec4a8dcba209eaf89e00ba2b2e18f8304ee13371bac40b77cb7
+Description:  Python 3.9 sqlite3 module
+
+Package: python3-unittest-src
+Version: 3.9.6-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-unittest-src
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 56677
+Filename: python3-unittest-src_3.9.6-1_mips_24kc.ipk
+Size: 57627
+SHA256sum: 323d55002411ba0033c29b56010a05d4c00d75ef01519fdc38a1311ee4849c91
+Description:  Python 3.9 unittest module
+ 
+ This package contains the Python source files for python3-unittest.
+
+Package: python3-unittest
+Version: 3.9.6-1
+Depends: libc, python3-light
+Source: feeds/packages/lang/python/python3
+SourceName: python3-unittest
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 76371
+Filename: python3-unittest_3.9.6-1_mips_24kc.ipk
+Size: 77330
+SHA256sum: b68a664dbd626d85e6b554d6fbfe747a3e28b81e41813c918fe61eaa4256ac83
+Description:  Python 3.9 unittest module
+
+Package: python3-urllib-src
+Version: 3.9.6-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-urllib-src
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 41568
+Filename: python3-urllib-src_3.9.6-1_mips_24kc.ipk
+Size: 42516
+SHA256sum: 41ad3d36878c2fab6f18ee1c587682ac7ed39e40e318c18433cd458893fabb1d
+Description:  Python 3.9 URL library module
+ 
+ This package contains the Python source files for python3-urllib.
+
+Package: python3-urllib
+Version: 3.9.6-1
+Depends: libc, python3-light, python3-email
+Source: feeds/packages/lang/python/python3
+SourceName: python3-urllib
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 50916
+Filename: python3-urllib_3.9.6-1_mips_24kc.ipk
+Size: 51904
+SHA256sum: c1e4fd8a28e8dc2eb0eace0d846b7f0f0afccbb43a5c15030b148dcf7f98f21a
+Description:  Python 3.9 URL library module
+
+Package: python3-xml-src
+Version: 3.9.6-1
+Depends: libc
+Source: feeds/packages/lang/python/python3
+SourceName: python3-xml-src
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 90584
+Filename: python3-xml-src_3.9.6-1_mips_24kc.ipk
+Size: 91560
+SHA256sum: 37aa7e5f327313167ba46f6ba818d3dfd4a3bb46adc016aadd0180c5cd4b0d53
+Description:  Python 3.9 xml libs
+ 
+ This package contains the Python source files for python3-xml.
+
+Package: python3-xml
+Version: 3.9.6-1
+Depends: libc, python3-light, python3-urllib
+Source: feeds/packages/lang/python/python3
+SourceName: python3-xml
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 197934
+Filename: python3-xml_3.9.6-1_mips_24kc.ipk
+Size: 198321
+SHA256sum: b136e626f51ccb357db5ccba6d434b3eeb10d70215aef398ede833a6676c91f2
+Description:  Python 3.9 xml libs
+
+Package: python3
+Version: 3.9.6-1
+Depends: libc, python3-light, python3-unittest, python3-ncurses, python3-ctypes, python3-pydoc, python3-logging, python3-multiprocessing, python3-urllib, python3-readline, python3-gdbm, python3-sqlite3, python3-xml, python3-distutils, python3-email, python3-openssl, python3-cgi, python3-cgitb, python3-dbm, python3-codecs, python3-asyncio, python3-lzma, python3-decimal
+Source: feeds/packages/lang/python/python3
+SourceName: python3
+License: Python/2.0
+LicenseFiles: LICENSE Doc/copyright.rst Doc/license.rst Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi_osx/LICENSE Modules/expat/COPYING
+Section: lang
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:python:python
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>, Jeffery To <jeffery.to@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 97
+Filename: python3_3.9.6-1_mips_24kc.ipk
+Size: 1102
+SHA256sum: 35517de6726c98b611cc9826e1c7ec4500f8a660226bfaae92be74789cb496bf
+Description:  This package contains the (almost) full Python install.
+ It's python3-light + all other packages.
+
+Package: sqlite3-cli
+Version: 3330000-2
+Depends: libc, libsqlite3-0, libedit
+Source: feeds/packages/libs/sqlite3
+SourceName: sqlite3-cli
+License: PUBLICDOMAIN
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:sqlite:sqlite
+Architecture: mips_24kc
+Installed-Size: 83385
+Filename: sqlite3-cli_3330000-2_mips_24kc.ipk
+Size: 83808
+SHA256sum: 4587e98072fc7b2414ebda68c1616c735d08da7c063027a2538d5844adb015ae
+Description:  SQLite is a small C library that implements a self-contained, embeddable,
+ zero-configuration SQL database engine.
+ This package contains a terminal-based front-end to the SQLite (v3.x) library
+ that can evaluate queries interactively and display the results in multiple
+ formats.
+
+Package: udns-dnsget
+Version: 0.4-1
+Depends: libc, libudns
+Source: feeds/packages/libs/udns
+SourceName: udns-dnsget
+License: LGPL-2.1
+Section: utils
+SourceDateEpoch: 1625626742
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 7455
+Filename: udns-dnsget_0.4-1_mips_24kc.ipk
+Size: 8243
+SHA256sum: d5176cea38b8f20018f6f44886698d64162af39163d97644fc874599132502c1
+Description:  a simple DNS query tool
+
+Package: udns-ex-rdns
+Version: 0.4-1
+Depends: libc, libudns
+Source: feeds/packages/libs/udns
+SourceName: udns-ex-rdns
+License: LGPL-2.1
+Section: utils
+SourceDateEpoch: 1625626742
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 2293
+Filename: udns-ex-rdns_0.4-1_mips_24kc.ipk
+Size: 3014
+SHA256sum: 638cf402f83820d4dfe6d8fbef0e3af294ee4717e5da4ae54dcd3efdb269cb21
+Description:  a parallel rDNS resolver
+
+Package: udns-rblcheck
+Version: 0.4-1
+Depends: libc, libudns
+Source: feeds/packages/libs/udns
+SourceName: udns-rblcheck
+License: LGPL-2.1
+Section: utils
+SourceDateEpoch: 1625626742
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 4513
+Filename: udns-rblcheck_0.4-1_mips_24kc.ipk
+Size: 5235
+SHA256sum: 7c1e1274ea3c486c29e3aacb116a7e2a6dea10a5672f593247f1000a60cd5039
+Description:  a simple DNSBL lookups tool
+
+Package: unzip
+Version: 6.0-8
+Depends: libc
+Source: feeds/packages/utils/unzip
+SourceName: unzip
+License: BSD-4-Clause
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:info-zip:unzip
+Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 101553
+Filename: unzip_6.0-8_mips_24kc.ipk
+Size: 102570
+SHA256sum: 8066e2c1e45db467d300a1b173156951f0f8b334166448f5c6e7efd5ba31b0e5
+Description:  InfoZIP's unzip program. With the exception of multi-volume archives
+ (ie, .ZIP files that are split across several disks using PKZIP's /& option),
+ this can handle any file produced either by PKZIP, or the corresponding
+ InfoZIP zip program.
+
+Package: wget-nossl
+Version: 1.21.1-1
+Depends: libc, libpcre, zlib
+Provides: gnu-wget, wget
+Alternatives: 300:/usr/bin/wget:/usr/libexec/wget-nossl
+Source: feeds/packages/net/wget
+SourceName: wget-nossl
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:wget
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: mips_24kc
+Installed-Size: 162523
+Filename: wget-nossl_1.21.1-1_mips_24kc.ipk
+Size: 163365
+SHA256sum: e1a7ade94d613c262a49b93068a0f054301467dffb478fa3fdccce7e28983c93
+Description:  Wget is a network utility to retrieve files from the Web using http
+ and ftp, the two most widely used Internet protocols. It works
+ non-interactively, so it will work in the background, after having
+ logged off. The program supports recursive retrieval of web-authoring
+ pages as well as ftp sites -- you can use wget to make mirrors of
+ archives and home pages or to travel the Web like a WWW robot.
+ This package is built without SSL support.
+
+Package: wget-ssl
+Version: 1.21.1-1
+Depends: libc, libpcre, zlib, libopenssl1.1, librt
+Provides: gnu-wget, wget
+Alternatives: 300:/usr/bin/wget:/usr/libexec/wget-ssl
+Source: feeds/packages/net/wget
+SourceName: wget-ssl
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:gnu:wget
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: mips_24kc
+Installed-Size: 183922
+Filename: wget-ssl_1.21.1-1_mips_24kc.ipk
+Size: 184386
+SHA256sum: f2b3055d028a590aa537b5d505072b1c545e0d429c30765690a9bde0ebd1f298
+Description:  Wget is a network utility to retrieve files from the Web using http
+ and ftp, the two most widely used Internet protocols. It works
+ non-interactively, so it will work in the background, after having
+ logged off. The program supports recursive retrieval of web-authoring
+ pages as well as ftp sites -- you can use wget to make mirrors of
+ archives and home pages or to travel the Web like a WWW robot.
+ This package is built with SSL support.
+
+Package: xz-utils
+Version: 5.2.5-3
+Depends: libc
+Source: feeds/packages/utils/xz
+SourceName: xz-utils
+License: Public-Domain LGPL-2.1-or-later GPL-2.0-or-later GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:tukaani:xz
+Architecture: mips_24kc
+Installed-Size: 97
+Filename: xz-utils_5.2.5-3_mips_24kc.ipk
+Size: 839
+SHA256sum: 40ef4b89f251103166e4790e6bd2a21da32b23003acd450cb06e7b40ac2e3a4f
+Description:  XZ Utils (meta)
+
+Package: xz
+Version: 5.2.5-3
+Depends: libc, xz-utils, liblzma
+Alternatives: 300:/usr/bin/xz:/usr/libexec/xz-lzmautils, 300:/usr/bin/lzcat:/usr/libexec/xz-lzmautils, 300:/usr/bin/lzma:/usr/libexec/xz-lzmautils, 300:/usr/bin/unlzma:/usr/libexec/xz-lzmautils, 300:/usr/bin/unxz:/usr/libexec/xz-lzmautils, 300:/usr/bin/xzcat:/usr/libexec/xz-lzmautils
+Source: feeds/packages/utils/xz
+SourceName: xz
+License: Public-Domain LGPL-2.1-or-later GPL-2.0-or-later GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:tukaani:xz
+Architecture: mips_24kc
+Installed-Size: 24713
+Filename: xz_5.2.5-3_mips_24kc.ipk
+Size: 25346
+SHA256sum: ff5ec357857f08766786785e5340629e4e54964059328b3625109e225f823af3
+Description:  Contains: xz  lzcat lzma unlzma unxz xzcat
+
+Package: xzdec
+Version: 5.2.5-3
+Depends: libc, xz-utils, liblzma
+Source: feeds/packages/utils/xz
+SourceName: xzdec
+License: Public-Domain LGPL-2.1-or-later GPL-2.0-or-later GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:tukaani:xz
+Architecture: mips_24kc
+Installed-Size: 3105
+Filename: xzdec_5.2.5-3_mips_24kc.ipk
+Size: 3854
+SHA256sum: 592eb1833aae4b16703b98e898639ac710cf88dcdaa9add501a2746e5d099b8f
+Description:  Contains: xzdec 
+
+Package: xzdiff
+Version: 5.2.5-3
+Depends: libc, xz-utils, xz
+Alternatives: 300:/usr/bin/xzdiff:/usr/libexec/xzdiff-lzmautils, 300:/usr/bin/lzcmp:/usr/libexec/xzdiff-lzmautils, 300:/usr/bin/lzdiff:/usr/libexec/xzdiff-lzmautils, 300:/usr/bin/xzcmp:/usr/libexec/xzdiff-lzmautils
+Source: feeds/packages/utils/xz
+SourceName: xzdiff
+License: Public-Domain LGPL-2.1-or-later GPL-2.0-or-later GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:tukaani:xz
+Architecture: mips_24kc
+Installed-Size: 2610
+Filename: xzdiff_5.2.5-3_mips_24kc.ipk
+Size: 3439
+SHA256sum: 6fcac967ff8306bbe1fa17c42f640af9f14d4d98dc5aa2c8ac921f602bddb555
+Description:  Contains: xzdiff  lzcmp lzdiff xzcmp
+
+Package: xzgrep
+Version: 5.2.5-3
+Depends: libc, xz-utils, xz
+Alternatives: 300:/usr/bin/xzgrep:/usr/libexec/xzgrep-lzmautils, 300:/usr/bin/lzegrep:/usr/libexec/xzgrep-lzmautils, 300:/usr/bin/lzfgrep:/usr/libexec/xzgrep-lzmautils, 300:/usr/bin/lzgrep:/usr/libexec/xzgrep-lzmautils, 300:/usr/bin/xzegrep:/usr/libexec/xzgrep-lzmautils, 300:/usr/bin/xzfgrep:/usr/libexec/xzgrep-lzmautils
+Source: feeds/packages/utils/xz
+SourceName: xzgrep
+License: Public-Domain LGPL-2.1-or-later GPL-2.0-or-later GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:tukaani:xz
+Architecture: mips_24kc
+Installed-Size: 2565
+Filename: xzgrep_5.2.5-3_mips_24kc.ipk
+Size: 3405
+SHA256sum: 02e70020f1cfd09716511df4e4c778c3aa3cdc352b1a388125ce08e71dfe05d5
+Description:  Contains: xzgrep  lzegrep lzfgrep lzgrep xzegrep xzfgrep
+
+Package: xzless
+Version: 5.2.5-3
+Depends: libc, xz-utils, xz
+Alternatives: 300:/usr/bin/xzless:/usr/libexec/xzless-lzmautils, 300:/usr/bin/lzless:/usr/libexec/xzless-lzmautils
+Source: feeds/packages/utils/xz
+SourceName: xzless
+License: Public-Domain LGPL-2.1-or-later GPL-2.0-or-later GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:tukaani:xz
+Architecture: mips_24kc
+Installed-Size: 1243
+Filename: xzless_5.2.5-3_mips_24kc.ipk
+Size: 2039
+SHA256sum: cf341dc2133d299051b7819f6e3c62aa88dd98e2516c0379c952fd60c5a26c24
+Description:  Contains: xzless  lzless
+
+Package: xzmore
+Version: 5.2.5-3
+Depends: libc, xz-utils, xz
+Alternatives: 300:/usr/bin/xzmore:/usr/libexec/xzmore-lzmautils, 300:/usr/bin/lzmore:/usr/libexec/xzmore-lzmautils
+Source: feeds/packages/utils/xz
+SourceName: xzmore
+License: Public-Domain LGPL-2.1-or-later GPL-2.0-or-later GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+CPE-ID: cpe:/a:tukaani:xz
+Architecture: mips_24kc
+Installed-Size: 1331
+Filename: xzmore_5.2.5-3_mips_24kc.ipk
+Size: 2129
+SHA256sum: 3577fadc6e2fe14f4d747c8dc8d5f1a69ea7120f512601c08ba4920f11630bb9
+Description:  Contains: xzmore  lzmore
+
+Package: zerotier
+Version: 1.6.5-1
+Depends: libc, libpthread, libstdcpp6, kmod-tun, ip, libminiupnpc, libnatpmp1
+Source: feeds/packages/net/zerotier
+SourceName: zerotier
+License: BSL 1.1
+LicenseFiles: LICENSE.txt
+Section: net
+SourceDateEpoch: 1625626742
+Maintainer: Moritz Warning <moritzwarning@web.de>
+Architecture: mips_24kc
+Installed-Size: 405997
+Filename: zerotier_1.6.5-1_mips_24kc.ipk
+Size: 405593
+SHA256sum: cf19574c7f22141058abf0ccb35601c31afd8687f96f029189a49dc1f59056e9
+Description:  ZeroTier creates a global provider-independent virtual private cloud network.
+
+Package: zstd
+Version: 1.4.9-1
+Depends: libc, libzstd
+Source: feeds/packages/utils/zstd
+SourceName: zstd
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1625626742
+Architecture: mips_24kc
+Installed-Size: 51397
+Filename: zstd_1.4.9-1_mips_24kc.ipk
+Size: 52106
+SHA256sum: 4eec0d95325b00ad01fb53e77a57df35e78d96e1bd31e2bb9b6a53148df283e5
+Description:  Zstandard - Fast real-time compression algorithm.
+ This package provides the zstd binaries.
+
